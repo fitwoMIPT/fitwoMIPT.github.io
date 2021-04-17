@@ -1,0 +1,44 @@
+/*fonts*/
+@font-face {
+	font-family: 'wbpwi-icon-set';
+	src: url('../font/wbpwi-icon-set.eot?17172838');
+	src: url('../font/wbpwi-icon-set.eot?17172838#iefix') format('embedded-opentype'),
+	url('../font/wbpwi-icon-set.woff?17172838') format('woff'),
+	url('../font/wbpwi-icon-set.ttf?17172838') format('truetype'),
+	url('../font/wbpwi-icon-set.svg?17172838#wbpwi-icon-set') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.wbpwi-frontend-icon:before {
+	content: ' ';
+	font-family: 'wbpwi-icon-set';
+}
+
+.wbpwi-frontend-icon.orders:before {
+	content: '\e81c';
+}
+
+.wbpwi-frontend-icon.downloads:before {
+	content: '\e80e';
+}
+
+.wbpwi-frontend-icon.edit-address:before {
+	content: '\f2bc';
+}
+
+.wbpwi-frontend-icon.edit-account:before {
+   content: '\e80b';
+}
+
+.wbpwi-frontend-icon.wc-cart:before {
+	content: '\f291';
+}
+
+.wbpwi-frontend-icon.wc-checkout:before {
+	content: '\e819';
+}
+
+.wbpwi-frontend-icon.wc-order-tracking:before {
+	content: '\e812';
+}

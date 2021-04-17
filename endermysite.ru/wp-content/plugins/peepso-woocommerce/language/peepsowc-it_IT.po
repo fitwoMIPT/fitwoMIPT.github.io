@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:25+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: peepsowc.pot\n"
+"Language: it_IT\n"
+
+#: admin/class-wbpwi-admin-settings-display.php:28
+msgid "WooCommerce Tabs Display"
+msgstr "WooCommerce Visualizzazione Schede"
+
+#: admin/class-wbpwi-admin-settings-display.php:45
+msgid "PeepSo WooCommerce Tabs Setting"
+msgstr "PeepSo WooCommerce Impostazione Schede"
+
+#: admin/class-wbpwi-admin-settings-display.php:46
+msgid "Here you can enable or disable woocommerce tabs in PeepSo member single page."
+msgstr "Qui è possibile abilitare o disabilitare le schede di WooCommerce nella pagina dei membri di PeepSo."
+
+#: admin/class-wbpwi-admin-settings-display.php:62
+msgid "Product Order Activity Content"
+msgstr "Contenuto dell'attività ordine prodotto"
+
+#: admin/class-wbpwi-admin-settings-display.php:69
+msgid "Display purchase activity setting"
+msgstr "Impostazione di visualizzazione dell'attività di acquisto"
+
+#: admin/class-wbpwi-admin-settings-display.php:74
+msgid "Example: made a purchase."
+msgstr "Esempio: ha effettuato un acquisto."
+
+#: admin/class-wbpwi-admin-settings-display.php:77
+msgid "Modify Product Order Activity Content"
+msgstr "Modifica del contenuto dell'attività ordine prodotto"
+
+#: admin/class-wbpwi-admin-settings-display.php:83
+msgid "Product Review Activity Content"
+msgstr "Contenuto dell'attività recensione prodotto"
+
+#: admin/class-wbpwi-admin-settings-display.php:90
+msgid "Display product reviews setting"
+msgstr "Impostazione di visualizzazione delle recensioni del prodotto"
+
+#: admin/class-wbpwi-admin-settings-display.php:94
+msgid "Example: wrote a review."
+msgstr "Esempio: ha scritto una recensione."
+
+#: admin/class-wbpwi-admin-settings-display.php:98
+msgid "Modify Product Review Activity Content"
+msgstr "Modificare il contenuto dell'attività di recensione del prodotto"
+
+#: admin/class-wbpwi-admin-settings-display.php:104
+msgid "WooCommerce Activity Setting"
+msgstr "Impostazione di attività di WooCommerce"
+
+#: admin/class-wbpwi-admin-settings-display.php:105
+msgid "Here you can enable or disable settings related to WooCommerce product purchase & review."
+msgstr "Qui è possibile abilitare o disabilitare le impostazioni relative all'acquisto e recensione del prodotto in WooCommerce."
+
+#: admin/class-wbpwi-settings-manager.php:56
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/class-wbpwi-settings-manager.php:59
+msgid "PeepSo WooCommerce Integration Config Tab"
+msgstr "Scheda di Configurazione Integrazione PeepSo WooCommerce"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:71
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:73
+msgid "Add Purchase details in activity"
+msgstr "Aggiungere i dettagli di acquisto nell'attività"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:79
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:83
+msgid "Add Review in activity"
+msgstr "Aggiungi recensione in attività"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:88
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:92
+msgid "Activity Settings"
+msgstr "Impostazioni attività"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:34
+msgid "Cart"
+msgstr "Carrello"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:36
+#: core/class-wbpwi-woo-checkout-tab-manager.php:32
+msgid "Checkout"
+msgstr "Checkout"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:213
+#: core/class-wbpwi-woo-checkout-tab-manager.php:177
+msgid "Checkout is not available whilst your cart is empty."
+msgstr "Il Checkout non è disponibile quando il carrello è vuoto."
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:35
+#: global/class-wbpwi-global-functions.php:37
+msgid "Orders"
+msgstr "Ordini"
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:161
+#: core/class-wbpwi-woo-order-tracking-tab-manager.php:33
+msgid "Order Tracking"
+msgstr "Tracciamento ordine"
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:165
+msgid "Downloads"
+msgstr "Download"
+
+#: global/class-wbpwi-global-functions.php:45
+msgid "wrote a review"
+msgstr ""
+
+#: global/class-wbpwi-global-functions.php:46
+msgid "made a purchase"
+msgstr ""
+
+#: peepso-woocommerce.php:274
+#, php-format
+msgid "The %1$s plugin requires PeepSo plugin to be installed and activated. "
+msgstr "Il plugin %s richiede che il plugin PeepSo sia installato e attivato."
+
+#: peepso-woocommerce.php:275
+#, php-format
+msgid "<a href=\"%1$s\" class=\"thickbox\">%2$s</a>"
+msgstr "<a href=\"%1$s\" class=\"thickbox\">%2$s</a>"
+
+#: peepso-woocommerce.php:275
+msgid "Get it now!"
+msgstr "Scaricalo ora!"
+
+#: peepso-woocommerce.php:289
+#, php-format
+msgid "The %1$s plugin requires the WooCommerce plugin. "
+msgstr "Il plugin %1$s richiede il plugin WooCommerce. "
+
+#: peepso-woocommerce.php:299
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: peepso-woocommerce.php:492
+msgid "Products slider"
+msgstr "Slider Prodotti"
+
+#: peepso-woocommerce.php:495
+msgid "Prev"
+msgstr "Prec."
+
+#: peepso-woocommerce.php:496
+msgid "Next"
+msgstr "Succ."
+
+#: peepso-woocommerce.php:562
+msgid " other product"
+msgid_plural " other products"
+msgstr[0] " altro prodotto"
+msgstr[1] " altri prodotti"
+
+#: peepso-woocommerce.php:571
+msgid "and"
+msgstr "e"
+
+#: peepso-woocommerce.php:591
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s e %2$s"
+
+#: peepso-woocommerce.php:596
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: WooCommerce"
+msgstr "Monetizzazione PeepSo: WooCommerce"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://www.peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the WooCommerce plugin.</strong> WooCommerce bridge for PeepSo"
+msgstr "<strong>Richiede il plugin WooCommerce.</strong> Bridge WooCommerce per PeepSo"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

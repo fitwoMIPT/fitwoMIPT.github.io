@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:22+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsopolls.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: peepso-polls.pot\n"
+"Language: hu_HU\n"
+
+#: classes/configsectionpolls.php:19
+msgid "Enabled: users can cast more than one vote in each poll"
+msgstr "Engedélyezve: a felhasználók minden szavazásnál egynél több szavazatot is leadhatnak"
+
+#: classes/configsectionpolls.php:19
+msgid "Disabled: users can only vote for one option in each poll"
+msgstr "Letiltva: a felhasználók csak egy lehetőségre szavazhatnak minden szavazás során"
+
+#: classes/configsectionpolls.php:22
+msgid "Multi select polls"
+msgstr "Többszörös kiválasztású szavazások"
+
+#: classes/configsectionpolls.php:28
+msgid "Enabled: polls are available in group posts"
+msgstr "Engedélyezve: a szavazások elérhetőek a csoport posztokban"
+
+#: classes/configsectionpolls.php:28
+msgid "Disabled: polls are only available on community and profile streams"
+msgstr "Letiltva: a szavazások csak közösségi és a profil activity oldalakon érhetők el"
+
+#: classes/configsectionpolls.php:31
+msgid "Polls in groups"
+msgstr "Szavazások a csoportokban"
+
+#: classes/configsectionpolls.php:37 classes/configsectionpolls.php:45
+msgid "Does not apply to poll author and administrators"
+msgstr "Nem vonatkozik a szavazás szerzőjére és a rendszergazdákra"
+
+#: classes/configsectionpolls.php:37
+msgid "Enabled: users can change or delete their votes"
+msgstr "Engedélyezve: a felhasználók megváltoztathatják vagy törölhetik szavazataikat"
+
+#: classes/configsectionpolls.php:37
+msgid "Disabled: votes are final"
+msgstr "Letiltva: a szavazatok véglegesek"
+
+#: classes/configsectionpolls.php:40
+msgid "Allow vote changes"
+msgstr "Engedélyezi a szavazás megváltoztatását"
+
+#: classes/configsectionpolls.php:45
+msgid "Enabled: users can see poll results before voting"
+msgstr "Engedélyezve: a felhasználók megtekinthetik a szavazás eredményeit a szavazások befejezése előtt"
+
+#: classes/configsectionpolls.php:45
+msgid "Disabled: results are hidden from users who haven't voted yet"
+msgstr "Letiltva: az eredmények rejtve maradnak azon felhasználók előtt, akik még nem szavaztak"
+
+#: classes/configsectionpolls.php:48
+msgid "Always show results"
+msgstr "Mindig mutasson eredményeket"
+
+#: classes/configsectionpolls.php:57
+msgid "General"
+msgstr "Általános"
+
+#: classes/pollsajax.php:27 classes/pollsajax.php:95 classes/pollsajax.php:133
+msgid "Invalid user id"
+msgstr "Érvénytelen felhasználó azonosító"
+
+#: classes/pollsajax.php:29 classes/pollsajax.php:97 classes/pollsajax.php:135
+msgid "Invalid poll id"
+msgstr "Érvénytelen szavazás azonosító"
+
+#: classes/pollsajax.php:31
+msgid "No poll selected"
+msgstr "Nincs kiválasztva szavazás"
+
+#: classes/pollsajax.php:33
+msgid "Max 1 selected"
+msgstr "Max 1 kiválasztott"
+
+#: classes/pollsajax.php:35
+msgid "Already voted"
+msgstr "Már szavazott"
+
+#: peepsopolls.php:224
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "A(z) %s bővítményhez szükséges a PeepSo telepítése és aktiválása."
+
+#: peepsopolls.php:226
+msgid "Get it now!"
+msgstr "Szerezd be most!"
+
+#: peepsopolls.php:254
+msgid "Polls"
+msgstr "Szavazások"
+
+#: peepsopolls.php:257
+msgid "PeepSo Polls"
+msgstr "PeepSo Szavazások"
+
+#: peepsopolls.php:280 peepsopolls.php:328
+msgid "Poll"
+msgstr "Szavazás"
+
+#: peepsopolls.php:343
+msgid "Say something about this poll..."
+msgstr ""
+
+#: peepsopolls.php:344
+#, php-format
+msgid "Option %d"
+msgstr "%d opció"
+
+#: peepsopolls.php:359
+msgid " asked a question"
+msgstr " feltett egy kérdést"
+
+#: peepsopolls.php:508 templates/polls/content-media.php:54
+msgid "Change Vote"
+msgstr "Szavazás módosítása"
+
+#: templates/polls/content-media.php:16
+msgid "(no votes yet)"
+msgstr "(még nincs szavazat)"
+
+#: templates/polls/content-media.php:27
+msgid "of"
+msgstr "-ból"
+
+#: templates/polls/content-media.php:56
+msgid "Submit"
+msgstr "Küldés"
+
+#: templates/polls/content-media.php:64
+msgid "Unvote"
+msgstr "Szavazás mentes"
+
+#: templates/polls/content-media.php:72
+msgid "Login to cast your vote and to see results."
+msgstr "Belépés a szavazatod leadásához, és, hogy lásd az eredményeket."
+
+#: templates/polls/postbox-polls.php:7 templates/polls/postbox-polls.php:12
+msgid "Move"
+msgstr ""
+
+#: templates/polls/postbox-polls.php:8
+msgid "Option 1"
+msgstr "Opció 1"
+
+#: templates/polls/postbox-polls.php:9 templates/polls/postbox-polls.php:14
+msgid "Delete"
+msgstr ""
+
+#: templates/polls/postbox-polls.php:13
+msgid "Option 2"
+msgstr "Opció 2"
+
+#: templates/polls/postbox-polls.php:19
+msgid "Add new option"
+msgstr "Új opció hozzáadása"
+
+#: templates/polls/postbox-polls.php:24
+msgid "Allow multiple options selection"
+msgstr "Lehetővé teszi, hogy több lehetőség közül lehessen választani"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Polls"
+msgstr "PeepSo Core: Szavazások"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Post a question and let users vote"
+msgstr "Írj egy kérdést, és hagyd, hogy a felhasználók szavazzanak"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

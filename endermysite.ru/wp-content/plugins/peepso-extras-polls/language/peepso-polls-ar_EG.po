@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:22+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Arabic, Egypt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsopolls.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: ar-EG\n"
+"X-Crowdin-File: peepso-polls.pot\n"
+"Language: ar_EG\n"
+
+#: classes/configsectionpolls.php:19
+msgid "Enabled: users can cast more than one vote in each poll"
+msgstr "تفعيل: يمكن للمستخدمين التصويت بأكثر من صوت واحد في كل استطلاع"
+
+#: classes/configsectionpolls.php:19
+msgid "Disabled: users can only vote for one option in each poll"
+msgstr "تعطيل: لا يمكن للمستخدمين التصويت إلا لخيار واحد فقط في كل استطلاع"
+
+#: classes/configsectionpolls.php:22
+msgid "Multi select polls"
+msgstr "استطلاعات رأي متعددة الإختيارات"
+
+#: classes/configsectionpolls.php:28
+msgid "Enabled: polls are available in group posts"
+msgstr "تفعيل: استطلاعات الرأي متاحة في المنشورات الخاصة بالمجموعة"
+
+#: classes/configsectionpolls.php:28
+msgid "Disabled: polls are only available on community and profile streams"
+msgstr "تعطيل: استطلاعات الرأي لا تكون متوفرة إلا في تيارات المجتمعات الإفتراضية والصفحات الشخصية"
+
+#: classes/configsectionpolls.php:31
+msgid "Polls in groups"
+msgstr "استطلاعات الرأي في مجموعات"
+
+#: classes/configsectionpolls.php:37 classes/configsectionpolls.php:45
+msgid "Does not apply to poll author and administrators"
+msgstr "لا ينطبق على مقدم استطلاع الرأي والمسئولين"
+
+#: classes/configsectionpolls.php:37
+msgid "Enabled: users can change or delete their votes"
+msgstr "تفعيل: يمكن للمستخدمين تغيير أو حذف أصواتهم"
+
+#: classes/configsectionpolls.php:37
+msgid "Disabled: votes are final"
+msgstr "تعطيل: التصويت يتم بشكل نهائي"
+
+#: classes/configsectionpolls.php:40
+msgid "Allow vote changes"
+msgstr "السماح بإحداث تغييرات في التصويت"
+
+#: classes/configsectionpolls.php:45
+msgid "Enabled: users can see poll results before voting"
+msgstr "تفعيل: يمكن للمستخدمين مشاهدة نتائج استطلاع الرأي قبل القيام بالتصويت"
+
+#: classes/configsectionpolls.php:45
+msgid "Disabled: results are hidden from users who haven't voted yet"
+msgstr "تعطيل: يتم إخفاء النتائج عن المستخدمين الذين لم يقوموا بالإدلاء بأصواتهم بعد"
+
+#: classes/configsectionpolls.php:48
+msgid "Always show results"
+msgstr "إظهار النتائج دائماً"
+
+#: classes/configsectionpolls.php:57
+msgid "General"
+msgstr "عام"
+
+#: classes/pollsajax.php:27 classes/pollsajax.php:95 classes/pollsajax.php:133
+msgid "Invalid user id"
+msgstr "هوية المستخدم غير صحيحة"
+
+#: classes/pollsajax.php:29 classes/pollsajax.php:97 classes/pollsajax.php:135
+msgid "Invalid poll id"
+msgstr "استطلاع رأي غير معرّف"
+
+#: classes/pollsajax.php:31
+msgid "No poll selected"
+msgstr "لم يتم تحديد استطلاع للرأي"
+
+#: classes/pollsajax.php:33
+msgid "Max 1 selected"
+msgstr "الحد الأقصى 1 محدد"
+
+#: classes/pollsajax.php:35
+msgid "Already voted"
+msgstr "تم التصويت سابقاً"
+
+#: peepsopolls.php:224
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "تتطلب قطعة %s برنامج بيبسو المساعد ليتم تثبيتها وتفعيلها."
+
+#: peepsopolls.php:226
+msgid "Get it now!"
+msgstr "احصل عليه الآن!"
+
+#: peepsopolls.php:254
+msgid "Polls"
+msgstr "استطلاعات الرأي"
+
+#: peepsopolls.php:257
+msgid "PeepSo Polls"
+msgstr "استطلاعات رأي بيبسو"
+
+#: peepsopolls.php:280 peepsopolls.php:328
+msgid "Poll"
+msgstr "استطلاع الرأي"
+
+#: peepsopolls.php:343
+msgid "Say something about this poll..."
+msgstr "شاركنا برأيك حول هذا الاستطلاع..."
+
+#: peepsopolls.php:344
+#, php-format
+msgid "Option %d"
+msgstr "الخيار %d"
+
+#: peepsopolls.php:359
+msgid " asked a question"
+msgstr " قام بطرح سؤال"
+
+#: peepsopolls.php:508 templates/polls/content-media.php:54
+msgid "Change Vote"
+msgstr "تغيير التصويت"
+
+#: templates/polls/content-media.php:16
+msgid "(no votes yet)"
+msgstr "(لم يتم التصويت بعد)"
+
+#: templates/polls/content-media.php:27
+msgid "of"
+msgstr "من"
+
+#: templates/polls/content-media.php:56
+msgid "Submit"
+msgstr "إرسال"
+
+#: templates/polls/content-media.php:64
+msgid "Unvote"
+msgstr "غير مصوت"
+
+#: templates/polls/content-media.php:72
+msgid "Login to cast your vote and to see results."
+msgstr "قم بتسجيل الدخول للتصويت ومعرفة النتائج."
+
+#: templates/polls/postbox-polls.php:7 templates/polls/postbox-polls.php:12
+msgid "Move"
+msgstr "تحريك"
+
+#: templates/polls/postbox-polls.php:8
+msgid "Option 1"
+msgstr "الخيار الأول"
+
+#: templates/polls/postbox-polls.php:9 templates/polls/postbox-polls.php:14
+msgid "Delete"
+msgstr "حذف"
+
+#: templates/polls/postbox-polls.php:13
+msgid "Option 2"
+msgstr "الخيار الثاني"
+
+#: templates/polls/postbox-polls.php:19
+msgid "Add new option"
+msgstr "إضافة خاصية جديدة"
+
+#: templates/polls/postbox-polls.php:24
+msgid "Allow multiple options selection"
+msgstr "السماح بتحديد خيارات متعددة"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Polls"
+msgstr "بيبسو الأساسي: استطلاعات الرأي"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Post a question and let users vote"
+msgstr "نشر سؤال مع السماح للمستخدمين بالتصويت عليه"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""
+

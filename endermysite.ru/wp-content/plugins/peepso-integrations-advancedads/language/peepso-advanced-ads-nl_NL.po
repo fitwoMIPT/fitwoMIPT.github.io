@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:19+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoadvancedads.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: peepso-advanced-ads.pot\n"
+"Language: nl_NL\n"
+
+#: classes/advancedadsadtypepeepso.php:10
+msgid "PeepSo Stream Ad"
+msgstr "PeepSo Stream Ad"
+
+#: classes/advancedadsadtypepeepso.php:11
+msgid "Ads that display in PeepSo stream."
+msgstr "Advertenties die weergegeven worden in PeepSo stream."
+
+#: classes/advancedadsadtypepeepso.php:64 templates/selling-ads/ad-setup.php:1
+msgid "Avatar"
+msgstr "Avatar"
+
+#: classes/advancedadsadtypepeepso.php:66
+#: classes/advancedadsadtypepeepso.php:105
+msgid "Insert File"
+msgstr "Bestand invoegen"
+
+#: classes/advancedadsadtypepeepso.php:66
+#: classes/advancedadsadtypepeepso.php:105
+msgid "Insert"
+msgstr "Invoegen"
+
+#: classes/advancedadsadtypepeepso.php:67
+#: classes/advancedadsadtypepeepso.php:106
+msgid "Change"
+msgstr "Wijzigen"
+
+#: classes/advancedadsadtypepeepso.php:73
+msgid "The uploaded image should be square and at least 128x128 pixels."
+msgstr "De geüploade afbeelding moet vierkant zijn, en minstens 128x128 pixels groot."
+
+#: classes/advancedadsadtypepeepso.php:89
+msgid "Content"
+msgstr "Inhoud"
+
+#: classes/advancedadsadtypepeepso.php:92
+msgid "Supported HTML tags:"
+msgstr "Ondersteunde HTML-tags:"
+
+#: classes/advancedadsadtypepeepso.php:103 templates/selling-ads/ad-setup.php:8
+msgid "Image"
+msgstr "Afbeelding"
+
+#: classes/advancedadsadtypepeepso.php:111
+msgid "Image will be displayed at full width of your Community stream (depending on theme, layout and screen size). For best results use an image at least 1000 pixels wide."
+msgstr "De afbeelding wordt in de volle breedte van uw Communitystream weergegeven (afhankelijk van het thema, de indeling en de schermgrootte). Gebruik voor de beste resultaten een afbeelding van minstens 1000 pixels breed."
+
+#: classes/advancedadsadtypepeepso.php:125
+#: templates/selling-ads/ad-setup.php:14
+msgid "URL"
+msgstr "URL"
+
+#: classes/advancedadsadtypepeepso.php:128
+msgid "Clicking the image, avatar or title will open the link in a new window/tab. "
+msgstr "Door op de afbeelding, avatar of titel te klikken, wordt de link in een nieuw venster/tab geopend. "
+
+#: classes/advancedadsadtypepeepso.php:148
+msgid "No image"
+msgstr "Geen afbeelding"
+
+#: classes/advancedadstargeting.php:12
+msgid "equal to"
+msgstr "gelijk aan"
+
+#: classes/advancedadstargeting.php:13
+msgid "not equal to"
+msgstr "niet gelijk aan"
+
+#: classes/advancedadstargeting.php:14
+msgid "more than"
+msgstr "meer dan"
+
+#: classes/advancedadstargeting.php:15
+msgid "more than or equal to"
+msgstr "meer dan of gelijk aan"
+
+#: classes/advancedadstargeting.php:16
+msgid "less than"
+msgstr "minder dan"
+
+#: classes/advancedadstargeting.php:17
+msgid "less than or equal to"
+msgstr "minder dan of gelijk aan"
+
+#: classes/advancedadstargeting.php:69
+msgid "Field does not exist"
+msgstr "Veld bestaat niet"
+
+#: classes/advancedadstargeting.php:76
+msgid "No field values"
+msgstr "Geen veldwaarden"
+
+#: classes/advancedadstargeting.php:146
+msgid "No groups"
+msgstr "Geen groepen"
+
+#: classes/advancedadstargeting.php:151 classes/advancedadstargeting.php:201
+#: peepsoadvancedads.php:276 peepsoadvancedads.php:297
+msgid "(unpublished)"
+msgstr "(niet gepubliceerd)"
+
+#: classes/advancedadstargeting.php:196
+msgid "No VIP icons"
+msgstr "Geen VIP-pictogrammen"
+
+#: classes/advancedadstargeting.php:342
+msgid "is"
+msgstr "is"
+
+#: classes/advancedadstargeting.php:342
+msgid "is not"
+msgstr "is niet"
+
+#: classes/advancedadstargeting.php:352
+msgid "-- choose one --"
+msgstr "-- kies er één --"
+
+#: classes/configsectionadvancedads.php:18
+msgid "See the Documentation"
+msgstr "Bekijk de Documentatie"
+
+#: classes/configsectionadvancedads.php:22
+#, php-format
+msgid " Please read the documentation. It will save you time and will teach you how the PeepSo Stream Ads and Ads Targeting based on User Profiles work. %s."
+msgstr " Gelieve de documentatie te lezen. Dit bespaart u tijd en leert u hoe de PeepSo Stream Ads en Gepersonaliseerde Ads gebaseerd op Gebruikersprofielen werken. %s."
+
+#: classes/configsectionadvancedads.php:28
+msgid "Important Ad Setup Instructions"
+msgstr "Belangrijke Ad Setup Instructies"
+
+#: classes/configsectionadvancedads.php:38
+msgid "Ads On Stream"
+msgstr "Advertenties Via Stream"
+
+#: classes/configsectionadvancedads.php:43
+msgid "0 to disable ads on stream"
+msgstr "0 om advertenties via stream uit te schakelen"
+
+#: classes/configsectionadvancedads.php:48
+#: classes/configsectionadvancedads.php:67
+msgid "post"
+msgid_plural "posts"
+msgstr[0] "publicatie"
+msgstr[1] "publicaties"
+
+#: classes/configsectionadvancedads.php:50
+#: classes/configsectionadvancedads.php:69
+msgid "(disabled)"
+msgstr "(uitgeschakeld)"
+
+#: classes/configsectionadvancedads.php:56
+msgid "Display PeepSo Ad Placements after:"
+msgstr "PeepSo Advertentieplaatsing weergeven na:"
+
+#: classes/configsectionadvancedads.php:63
+msgid "0 to display only once"
+msgstr "0 om slechts een keer weer te geven"
+
+#: classes/configsectionadvancedads.php:75
+msgid "Repeat every each:"
+msgstr "Herhalen bij elke:"
+
+#: classes/configsectionadvancedads.php:82
+msgid "\"Sponsored\" marker"
+msgstr "Markering \"Gesponsord\""
+
+#: classes/configsectionadvancedads.php:92
+msgid "Mark PeepSo Stream Ads as \"sponsored\""
+msgstr "Markeer PeepSo Stream Ads als \"gesponsord\""
+
+#: classes/configsectionadvancedads.php:99
+msgid "Sponsored content"
+msgstr "Gesponsorde inhoud"
+
+#: classes/configsectionadvancedads.php:102
+msgid "\"Sponsored content\" text"
+msgstr "Tekst \"Gesponsorde inhoud\""
+
+#: classes/configsectionadvancedads.php:109
+msgid "Stream Ads"
+msgstr "Stream Ads"
+
+#: peepsoadvancedads.php:105
+msgid "Display conditions are not supported in PeepSo Stream placement"
+msgstr "De voorwaarden voor weergave worden niet ondersteund in PeepSo Stream plaatsing"
+
+#: peepsoadvancedads.php:109
+msgid "\"Position\" and \"show only once\" might not work properly when in PeepSo Stream placement"
+msgstr "\"Positie\" en \"slechts een keer tonen\" werkt mogelijk niet correct in PeepSo Stream plaatsing"
+
+#: peepsoadvancedads.php:113
+msgid "Some conditions might not work properly when in PeepSo Stream placement"
+msgstr "Sommige voorwaarden werken mogelijk niet correct in PeepSo Stream plaatsing"
+
+#: peepsoadvancedads.php:148
+msgid "PeepSo Stream"
+msgstr "PeepSo Stream"
+
+#: peepsoadvancedads.php:149
+msgid "Display this ad in PeepSo Stream"
+msgstr "Deze advertentie weergeven in PeepSo Stream"
+
+#: peepsoadvancedads.php:277 peepsoadvancedads.php:298
+#, php-format
+msgid "PeepSo Profile: %s%s%s"
+msgstr "PeepSo Profiel: %s%s%s"
+
+#: peepsoadvancedads.php:277
+msgid "Age"
+msgstr "Leeftijd"
+
+#: peepsoadvancedads.php:281
+msgid "PeepSo User Age"
+msgstr "Leeftijd PeepSo Gebruiker"
+
+#: peepsoadvancedads.php:312 peepsoadvancedads.php:313
+msgid "PeepSo Friends: Amount Of Friends"
+msgstr "PeepSo Vrienden: Aantal Vrienden"
+
+#: peepsoadvancedads.php:323 peepsoadvancedads.php:324
+msgid "PeepSo Group Membership"
+msgstr "PeepSo Groepslidmaatschap"
+
+#: peepsoadvancedads.php:334 peepsoadvancedads.php:335
+msgid "PeepSo VIP Icon"
+msgstr "PeepSo VIP-pictogram"
+
+#: peepsoadvancedads.php:380
+#, php-format
+msgid "PeepSo %s requires the Advanced Ads plugin."
+msgstr "PeepSo %s vereist de Advanced Ads plugin."
+
+#: peepsoadvancedads.php:423
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "De plug-in %s vereist dat de PeepSo plug-in wordt geïnstalleerd en geactiveerd."
+
+#: peepsoadvancedads.php:425 peepsoadvancedads.php:439
+msgid "Get it now!"
+msgstr "Probeer het nu!"
+
+#: peepsoadvancedads.php:437
+#, php-format
+msgid "The %s plugin requires the Advanced Ads plugin to be installed and activated."
+msgstr "De plug-in %s vereist dat de plug-in Advanced Ads wordt geïnstalleerd en geactiveerd."
+
+#: peepsoadvancedads.php:451 peepsoadvancedads.php:454
+msgid "Advanced Ads"
+msgstr "Advanced Ads"
+
+#: templates/selling-ads/ad-setup.php:4 templates/selling-ads/ad-setup.php:11
+msgid "Max File Size : 1Mb"
+msgstr "Max Bestandsgrootte : 1MB"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Advanced Ads"
+msgstr "PeepSo Monetisatie: Advanced Ads"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the Advanced Ads plugin.</strong> Targeted ads throughout Your Community."
+msgstr "<strong>Vereist de Advanced Ads plugin.</strong> Targeted advertenties in de hele Gemeenschap."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

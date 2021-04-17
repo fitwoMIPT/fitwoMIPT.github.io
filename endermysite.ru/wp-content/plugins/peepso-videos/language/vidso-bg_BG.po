@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:11+0700\n"
+"PO-Revision-Date: 2018-04-18 05:30-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsovideos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: vidso.pot\n"
+"Language: bg_BG\n"
+
+#: classes/videosadmin.php:36
+#, php-format
+msgid "Video of post %s"
+msgstr "Видео на пост %s"
+
+#: classes/videosadmin.php:54
+msgid "Like Video"
+msgstr "Харесване на видео"
+
+#: classes/videosadmin.php:55
+msgid "This will be sent when a user \"likes\" another user's video."
+msgstr "Това ще бъде изпратенo, когато потребител \"Хареса\" клип на друг потребител."
+
+#: classes/videosadmin.php:59
+msgid "User Comment Video"
+msgstr "Коментари на видеоклипове"
+
+#: classes/videosadmin.php:60
+msgid "This will be sent to a video owner when another user comments on the video"
+msgstr "Това ще бъде изпратено до собственика на видеоклипа, когато друг потребител го коментира."
+
+#: classes/videosajax.php:32
+msgid "Sorry, this is not a valid video.<br><small>Please make sure you're using a valid URL, not and embed code.</small>"
+msgstr "За съжаление, това не е валидно видео. <br><small>Проверете дали използвате валиден URL адрес, а не код за вграждане.</small>"
+
+#: classes/videosajax.php:103
+msgid "You don't have any videos yet"
+msgstr "Все още нямате добавени клипове"
+
+#: classes/videosajax.php:103
+#, php-format
+msgid "%s doesn't have any videos yet"
+msgstr "%s все още няма добавени клипове"
+
+#: classes/widgets/widgetcommunityvideos.php:12
+msgid "PeepSo Community Videos"
+msgstr "PeepSo Всички клипове"
+
+#: classes/widgets/widgetcommunityvideos.php:13
+msgid "PeepSo Community Videos Widget"
+msgstr "PeepSo Всички клипове"
+
+#: classes/widgets/widgetcommunityvideos.php:86
+msgid "Latest Videos"
+msgstr "Най-новите"
+
+#: classes/widgets/widgetvideos.php:12
+msgid "PeepSo Videos"
+msgstr "PeepSo Видео"
+
+#: classes/widgets/widgetvideos.php:13
+msgid "PeepSo Videos Widget"
+msgstr "PeepSo Видео"
+
+#: classes/widgets/widgetvideos.php:103
+msgid "My Videos"
+msgstr "Моите клипове"
+
+#: peepsovideos.php:259
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: peepsovideos.php:261
+msgid "Get it now!"
+msgstr "Вземи го сега!"
+
+#: peepsovideos.php:306
+msgid "Video"
+msgstr "Видео"
+
+#: peepsovideos.php:595
+msgid " posted a video"
+msgstr " добави нов видеоклип"
+
+#: peepsovideos.php:693
+msgid "Upload videos"
+msgstr "Качване на видеоклип"
+
+#: peepsovideos.php:761
+msgid "video"
+msgstr "видеоклип"
+
+#: peepsovideos.php:811 peepsovideos.php:838 peepsovideos.php:849
+msgid "Videos"
+msgstr "Видео"
+
+#: peepsovideos.php:814
+msgid "Someone liked my Video"
+msgstr "Някой е харесал мой видеоклип"
+
+#: peepsovideos.php:819
+msgid "Someone commented on my Video"
+msgstr "Някой е коментирал мой видеоклип"
+
+#: peepsovideos.php:824
+msgid "Someone shared my Video"
+msgstr "Някой е споделил мой видеоклип"
+
+#: templates/videos/post-edit.php:1
+msgid "Enter video URL here. Use browser link, not embed code."
+msgstr "Въведете URL адреса на видеоклип. Използвайте само URL адрес, а не код за вграждане."
+
+#: templates/videos/postbox-videos.php:5
+msgid "Enter video URL here"
+msgstr "Въведете URL адреса на видеоклипа"
+
+#: templates/videos/videos-group.php:13 templates/videos/videos.php:11
+msgid "Newest first"
+msgstr "Най-новите първи"
+
+#: templates/videos/videos-group.php:14 templates/videos/videos.php:12
+msgid "Oldest first"
+msgstr "Най-старите първи"
+
+#: templates/widgets/community-videos.tpl.php:34
+#: templates/widgets/videos.tpl.php:42
+msgid "No videos"
+msgstr "Няма видеоклипове"
+
+#: templates/widgets/videos.tpl.php:36
+msgid "View All"
+msgstr "Виж всички"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Videos"
+msgstr "PeepSo Core: Видео"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Link videos from supported providers"
+msgstr "Добавяне на клипове от поддържаните сайтове"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:19+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsofriends.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: friendso.pot\n"
+"Language: hu_HU\n"
+
+#: classes/friendsajax.php:60 classes/friendsajax.php:95
+#: classes/friendsajax.php:154 classes/friendsajax.php:211
+msgid "Notice"
+msgstr "Értesítés"
+
+#: classes/friendsajax.php:61
+msgid "Friend Request Sent"
+msgstr "Barátnak jelölés elküldve"
+
+#: classes/friendsajax.php:96
+msgid "Friend Request Cancelled"
+msgstr "Barátnak jelölés törölve"
+
+#: classes/friendsajax.php:155 classes/friendsconfig.php:81
+msgid "Friend Request Accepted"
+msgstr "Barátnak jelölés elfogadva"
+
+#: classes/friendsajax.php:212
+msgid "Friend Removed"
+msgstr "Barát eltávolítva"
+
+#: classes/friendsajax.php:233 templates/friends/pending.php:33
+msgid "You currently have no friend requests"
+msgstr "Jelenleg nincsen függőben lévő felkérés"
+
+#: classes/friendsajax.php:293
+msgid "You have no friends yet"
+msgstr "Még nincsenek barátaid"
+
+#: classes/friendsajax.php:293
+#, php-format
+msgid "%s has no friends yet"
+msgstr "%s felhasználónak még nincsenek barátai"
+
+#: classes/friendsajax.php:338 classes/widgets/widgetmutualfriends.php:107
+msgid "Mutual Friends"
+msgstr "Közös barátok"
+
+#: classes/friendsconfig.php:40
+msgid "Members can send messages to"
+msgstr "Tagok üzeneteket küldhetnek nekik"
+
+#: classes/friendsconfig.php:60
+msgid "Friends Settings"
+msgstr "Barát Beállítások"
+
+#: classes/friendsconfig.php:76
+msgid "Friend Request Received"
+msgstr "Barátnak jelölés elfogadva"
+
+#: classes/friendsconfig.php:77
+msgid "This will be sent to a user when a friend request is received."
+msgstr "Ez lesz elküldve egy felhasználónak, ha egy baráti felkérés érkezik."
+
+#: classes/friendsconfig.php:82
+msgid "This will be sent to a user when a friend request is accepted."
+msgstr "Ez lesz elküldve egy felhasználónak, amikor egy baráti felkérést elfogadtak."
+
+#: classes/friendspostswidget.php:16
+msgid "Friends Posts"
+msgstr "Baráti Bejegyzések"
+
+#: classes/friendspostswidget.php:17
+msgid "This will select up to 5 posts, displaying the most recent post by each of up to five users that are friends."
+msgstr "Ez maximum 5 bejegyzést fog kiválasztani, megjelenítve a legfrissebb bejegyzéseket legfeljebb 5 baráttól."
+
+#: classes/friendsrequests.php:58
+msgid "Friend request already sent"
+msgstr "A baráti felkérés már el lett küldve"
+
+#: classes/friendsrequests.php:72 classes/friendsrequests.php:104
+#: classes/friendsrequests.php:142
+msgid "You do not have enough permissions."
+msgstr "Nincs hozzá engedélyed."
+
+#: classes/friendsrequests.php:282 classes/friendsshortcode.php:135
+#: peepsofriends.php:795
+msgid " mutual friend"
+msgid_plural " mutual friends"
+msgstr[0] " közös barát"
+msgstr[1] " közös barátok"
+
+#: classes/friendsrequests.php:469
+#, php-format
+msgid "New Friend Request from %s"
+msgstr "Új baráti felkérés ettől a felhasználótól: %s"
+
+#: classes/friendsrequests.php:489
+#, php-format
+msgid "%s accepted your friend request"
+msgstr "%s elfogadta a baráti felkérésedet"
+
+#: classes/friendsrequests.php:499
+msgid "accepted your friend request"
+msgstr "elfogadta a baráti felkérésedet"
+
+#: classes/friendsrequests.php:520
+msgid "Friend Request Denied"
+msgstr "Baráti Felkérés Elutasítva"
+
+#: classes/friendsrequests.php:530 classes/friendsrequests.php:540
+msgid "Friend Request Ignored"
+msgstr "Baráti felkérés figyelmen kívül hagyva"
+
+#: classes/widgets/widgetfriends.php:17
+msgid "PeepSo Friends"
+msgstr "PeepSo Barátok"
+
+#: classes/widgets/widgetfriends.php:18
+msgid "PeepSo Friends Widget"
+msgstr "PeepSo Barátok Widget"
+
+#: classes/widgets/widgetfriends.php:125
+msgid "My Friends"
+msgstr "Barátaim"
+
+#: classes/widgets/widgetfriendsbirthday.php:14
+msgid "PeepSo Friends Birthday"
+msgstr "PeepSo barátok születésnapja"
+
+#: classes/widgets/widgetfriendsbirthday.php:15
+msgid "PeepSo Friends Birthday Widget"
+msgstr "PeepSo Barátok születésnapja widget"
+
+#: classes/widgets/widgetfriendsbirthday.php:138
+msgid "Upcoming Friends Birthdays"
+msgstr "Barátok Közelgő Szülinapjai"
+
+#: classes/widgets/widgetfriendsbirthday.php:151
+msgid "General Settings"
+msgstr "Általános Beállítások"
+
+#: classes/widgets/widgetfriendsbirthday.php:154
+msgid "Title"
+msgstr "Cím"
+
+#: classes/widgets/widgetfriendsbirthday.php:164
+msgid "Hide if empty"
+msgstr "Elrejtés, ha üres"
+
+#: classes/widgets/widgetfriendsbirthday.php:167
+msgid "Upcoming Birthdays"
+msgstr "Közelgő születésnapok"
+
+#: classes/widgets/widgetfriendsbirthday.php:173
+msgid "Show upcoming birthdays"
+msgstr "Közelgő születésnapok mutatása"
+
+#: classes/widgets/widgetfriendsbirthday.php:178
+msgid "How many days ahead?"
+msgstr "Hány nappal előre?"
+
+#: classes/widgets/widgetfriendsbirthday.php:193
+msgid "Max number of upcoming birthdays to show:"
+msgstr "Közelgő születésnapok megjelenítésének maximális száma:"
+
+#: classes/widgets/widgetmutualfriends.php:15
+msgid "PeepSo Mutual Friends"
+msgstr "PeepSo Közös Barátok"
+
+#: classes/widgets/widgetmutualfriends.php:16
+msgid "PeepSo Mutual Friends Widget"
+msgstr "PeepSo Közös Barátok Widget"
+
+#: install/activate.php:80 peepsofriends.php:726 peepsofriends.php:815
+#: peepsofriends.php:843 templates/friends/submenu.php:6
+msgid "Friends"
+msgstr "Barátok"
+
+#: install/activate.php:85 peepsofriends.php:334 peepsofriends.php:335
+msgid "Friend Requests"
+msgstr "Baráti felkérések"
+
+#: peepsofriends.php:269
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "A(z) %s bővítményhez szükséges a PeepSo telepítése és aktiválása."
+
+#: peepsofriends.php:271
+msgid "Get it now!"
+msgstr "Szerezd be most!"
+
+#: peepsofriends.php:408
+msgid "Friends Only"
+msgstr "Csak barátok"
+
+#: peepsofriends.php:484 peepsofriends.php:486
+msgid "Remove Friend"
+msgstr "Barát eltávolítása"
+
+#: peepsofriends.php:485
+msgid "Are you sure?"
+msgstr "Biztos vagy benne?"
+
+#: peepsofriends.php:487
+msgid "Cancel"
+msgstr "Mégse"
+
+#: peepsofriends.php:507 peepsofriends.php:516
+msgid "Friend"
+msgstr "Barát"
+
+#: peepsofriends.php:512
+msgid "Remove friend"
+msgstr "Barát eltávolítása"
+
+#: peepsofriends.php:515
+msgid "Unfriend"
+msgstr "Nem barát"
+
+#: peepsofriends.php:527 peepsofriends.php:532
+msgid "Cancel Friend Request"
+msgstr "Baráti felkérés törlése"
+
+#: peepsofriends.php:542
+msgid "Accept"
+msgstr "Elfogad"
+
+#: peepsofriends.php:547
+msgid "Accept Request"
+msgstr "Felkérés elfogadása"
+
+#: peepsofriends.php:553
+msgid "Reject"
+msgstr "Elutasítás"
+
+#: peepsofriends.php:558
+msgid "Reject Request"
+msgstr "Felkérés elutasítása"
+
+#: peepsofriends.php:568
+msgid "Add as Friend"
+msgstr "Barát hozzáadása"
+
+#: peepsofriends.php:573
+msgid "Add as your friend"
+msgstr "Hozzáadás barátként"
+
+#: peepsofriends.php:588
+msgid "Not following"
+msgstr "Nincs követés"
+
+#: peepsofriends.php:589
+msgid "Click to follow this user"
+msgstr "Kattints a felhasználó követéséhez"
+
+#: peepsofriends.php:593
+msgid "Start following"
+msgstr "Követés indítása"
+
+#: peepsofriends.php:597
+msgid "Following"
+msgstr "Követés"
+
+#: peepsofriends.php:598
+msgid "Click to unfollow this user"
+msgstr "Kattints a felhasználó követésének megszűntetéséhez"
+
+#: peepsofriends.php:601
+msgid "Stop following"
+msgstr "Követés leállítása"
+
+#: peepsofriends.php:729
+msgid "Someone sent me a Friend Request"
+msgstr "Valaki küldött nekem egy baráti felkérést"
+
+#: templates/friends/notification-popover-item.php:28
+msgid "Ignore"
+msgstr "Mellőzés"
+
+#: templates/friends/notification-popover-item.php:31
+msgid "Approve"
+msgstr "Jóváhagyás"
+
+#: templates/friends/submenu.php:9
+msgid "Friend requests"
+msgstr "Baráti felkérések"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr "Új üzenet"
+
+#: templates/widgets/friends.tpl.php:46
+msgid "View All"
+msgstr "Összes megtekintése"
+
+#: templates/widgets/friends.tpl.php:52
+#: templates/widgets/mutual-friends.tpl.php:43
+msgid "No friends"
+msgstr "Nincsenek barátok"
+
+#: templates/widgets/friendsbirthday.tpl.php:21
+#: templates/widgets/friendsbirthday.tpl.php:54
+msgid "Birthday Today"
+msgstr "Születésnap ma"
+
+#: templates/widgets/friendsbirthday.tpl.php:39
+msgid "Say Happy Birthday!"
+msgstr ""
+
+#: templates/widgets/friendsbirthday.tpl.php:55
+msgid "No friend's birthdays today."
+msgstr ""
+
+#: templates/widgets/friendsbirthday.tpl.php:67
+#: templates/widgets/friendsbirthday.tpl.php:116
+msgid "Upcoming Birthday"
+msgstr "Közelgő Születésnap"
+
+#: templates/widgets/friendsbirthday.tpl.php:100
+#, php-format
+msgid "Birthday tomorrow."
+msgid_plural "Birthday in %s days.</span>"
+msgstr[0] "Születésnap holnap."
+msgstr[1] "Születésnap %s nap múlva.</span>"
+
+#: templates/widgets/friendsbirthday.tpl.php:117
+msgid "No upcoming birthdays."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Friends"
+msgstr "PeepSo Core: Barátok"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Friend connections and \"friends\" privacy level"
+msgstr "Baráti kapcsolatok és \"barátok\" adatvédelmi szint"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
