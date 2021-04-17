@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:19+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsofriends.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: friendso.pot\n"
+"Language: pt_BR\n"
+
+#: classes/friendsajax.php:60 classes/friendsajax.php:95
+#: classes/friendsajax.php:154 classes/friendsajax.php:211
+msgid "Notice"
+msgstr "Aviso"
+
+#: classes/friendsajax.php:61
+msgid "Friend Request Sent"
+msgstr "Pedido de amizade enviado"
+
+#: classes/friendsajax.php:96
+msgid "Friend Request Cancelled"
+msgstr "Pedido de Amizade Cancelado"
+
+#: classes/friendsajax.php:155 classes/friendsconfig.php:81
+msgid "Friend Request Accepted"
+msgstr "Pedido de amizade aceitado"
+
+#: classes/friendsajax.php:212
+msgid "Friend Removed"
+msgstr "Amigo removido"
+
+#: classes/friendsajax.php:233 templates/friends/pending.php:33
+msgid "You currently have no friend requests"
+msgstr "Atualmente você não tem pedidos de amizade"
+
+#: classes/friendsajax.php:293
+msgid "You have no friends yet"
+msgstr "Você não tem amigos ainda"
+
+#: classes/friendsajax.php:293
+#, php-format
+msgid "%s has no friends yet"
+msgstr "%s não tem amigos ainda"
+
+#: classes/friendsajax.php:338 classes/widgets/widgetmutualfriends.php:107
+msgid "Mutual Friends"
+msgstr "Amigos em comum"
+
+#: classes/friendsconfig.php:40
+msgid "Members can send messages to"
+msgstr "Membros podem enviar mensagens para"
+
+#: classes/friendsconfig.php:60
+msgid "Friends Settings"
+msgstr "Configurações de amigos"
+
+#: classes/friendsconfig.php:76
+msgid "Friend Request Received"
+msgstr "Pedido de Amizade Recebido"
+
+#: classes/friendsconfig.php:77
+msgid "This will be sent to a user when a friend request is received."
+msgstr "Isto será enviado ao usuário quando um novo pedido de amizade for recebido."
+
+#: classes/friendsconfig.php:82
+msgid "This will be sent to a user when a friend request is accepted."
+msgstr "Isto será enviado a um usuário quando for aceite um pedido de amizade."
+
+#: classes/friendspostswidget.php:16
+msgid "Friends Posts"
+msgstr "Postagens de amigos"
+
+#: classes/friendspostswidget.php:17
+msgid "This will select up to 5 posts, displaying the most recent post by each of up to five users that are friends."
+msgstr "Isto irá selecionar até 5 posts, exibindo o post mais recente por cada um de até cinco usuários que são seus amigos."
+
+#: classes/friendsrequests.php:58
+msgid "Friend request already sent"
+msgstr "Solicitação de amizade já enviada"
+
+#: classes/friendsrequests.php:72 classes/friendsrequests.php:104
+#: classes/friendsrequests.php:142
+msgid "You do not have enough permissions."
+msgstr "Você não tem permissões suficientes."
+
+#: classes/friendsrequests.php:282 classes/friendsshortcode.php:135
+#: peepsofriends.php:795
+msgid " mutual friend"
+msgid_plural " mutual friends"
+msgstr[0] " amigo em comum"
+msgstr[1] " amigos em comum"
+
+#: classes/friendsrequests.php:469
+#, php-format
+msgid "New Friend Request from %s"
+msgstr "Nova solicitação de amizade de %s"
+
+#: classes/friendsrequests.php:489
+#, php-format
+msgid "%s accepted your friend request"
+msgstr "%s aceitou seu pedido de amizade"
+
+#: classes/friendsrequests.php:499
+msgid "accepted your friend request"
+msgstr "aceitou seu pedido de amizade"
+
+#: classes/friendsrequests.php:520
+msgid "Friend Request Denied"
+msgstr "Pedido de amizade negado"
+
+#: classes/friendsrequests.php:530 classes/friendsrequests.php:540
+msgid "Friend Request Ignored"
+msgstr "Pedido de Amizade Ignorado"
+
+#: classes/widgets/widgetfriends.php:17
+msgid "PeepSo Friends"
+msgstr "Amigos PeepSo"
+
+#: classes/widgets/widgetfriends.php:18
+msgid "PeepSo Friends Widget"
+msgstr "Widger de amigos PeepSo"
+
+#: classes/widgets/widgetfriends.php:125
+msgid "My Friends"
+msgstr "Meus Amigos"
+
+#: classes/widgets/widgetfriendsbirthday.php:14
+msgid "PeepSo Friends Birthday"
+msgstr "Aniversário de Amigos PeepSo"
+
+#: classes/widgets/widgetfriendsbirthday.php:15
+msgid "PeepSo Friends Birthday Widget"
+msgstr "Widget Aniversário de Amigos PeepSo"
+
+#: classes/widgets/widgetfriendsbirthday.php:138
+msgid "Upcoming Friends Birthdays"
+msgstr "Próximos Aniversários de Amigos"
+
+#: classes/widgets/widgetfriendsbirthday.php:151
+msgid "General Settings"
+msgstr "Configurações gerais"
+
+#: classes/widgets/widgetfriendsbirthday.php:154
+msgid "Title"
+msgstr "Título"
+
+#: classes/widgets/widgetfriendsbirthday.php:164
+msgid "Hide if empty"
+msgstr "Esconder se estiver vazio"
+
+#: classes/widgets/widgetfriendsbirthday.php:167
+msgid "Upcoming Birthdays"
+msgstr "Próximos Aniversários"
+
+#: classes/widgets/widgetfriendsbirthday.php:173
+msgid "Show upcoming birthdays"
+msgstr "Mostrar próximos aniversários"
+
+#: classes/widgets/widgetfriendsbirthday.php:178
+msgid "How many days ahead?"
+msgstr "Quantos dias em frente?"
+
+#: classes/widgets/widgetfriendsbirthday.php:193
+msgid "Max number of upcoming birthdays to show:"
+msgstr "Número máximo de próximos aniversários para mostrar:"
+
+#: classes/widgets/widgetmutualfriends.php:15
+msgid "PeepSo Mutual Friends"
+msgstr "Amigos Mútuos no PeepSo"
+
+#: classes/widgets/widgetmutualfriends.php:16
+msgid "PeepSo Mutual Friends Widget"
+msgstr "Widget Amigos Mútuos no PeepSo"
+
+#: install/activate.php:80 peepsofriends.php:726 peepsofriends.php:815
+#: peepsofriends.php:843 templates/friends/submenu.php:6
+msgid "Friends"
+msgstr "Amigos"
+
+#: install/activate.php:85 peepsofriends.php:334 peepsofriends.php:335
+msgid "Friend Requests"
+msgstr "Pedidos de Amizade"
+
+#: peepsofriends.php:269
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "O plugin %s requer o plugin PeepSo para ser instalado e ativado."
+
+#: peepsofriends.php:271
+msgid "Get it now!"
+msgstr "Obtenha agora!"
+
+#: peepsofriends.php:408
+msgid "Friends Only"
+msgstr "Apenas Amigos"
+
+#: peepsofriends.php:484 peepsofriends.php:486
+msgid "Remove Friend"
+msgstr "Remover Amigo"
+
+#: peepsofriends.php:485
+msgid "Are you sure?"
+msgstr "Tem certeza?"
+
+#: peepsofriends.php:487
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: peepsofriends.php:507 peepsofriends.php:516
+msgid "Friend"
+msgstr "Amigo"
+
+#: peepsofriends.php:512
+msgid "Remove friend"
+msgstr "Remover Amigo"
+
+#: peepsofriends.php:515
+msgid "Unfriend"
+msgstr "Não amigo"
+
+#: peepsofriends.php:527 peepsofriends.php:532
+msgid "Cancel Friend Request"
+msgstr "Cancelar Pedido de Amizade"
+
+#: peepsofriends.php:542
+msgid "Accept"
+msgstr "Aceitar"
+
+#: peepsofriends.php:547
+msgid "Accept Request"
+msgstr "Aceitar Pedido"
+
+#: peepsofriends.php:553
+msgid "Reject"
+msgstr "Rejeitar"
+
+#: peepsofriends.php:558
+msgid "Reject Request"
+msgstr "Rejeitar o pedido"
+
+#: peepsofriends.php:568
+msgid "Add as Friend"
+msgstr "Adicionar como amigo"
+
+#: peepsofriends.php:573
+msgid "Add as your friend"
+msgstr "Adicionado como seu amigo"
+
+#: peepsofriends.php:588
+msgid "Not following"
+msgstr "Não seguir"
+
+#: peepsofriends.php:589
+msgid "Click to follow this user"
+msgstr "Clique para seguir este usuário"
+
+#: peepsofriends.php:593
+msgid "Start following"
+msgstr "Começar a seguir"
+
+#: peepsofriends.php:597
+msgid "Following"
+msgstr "Seguindo"
+
+#: peepsofriends.php:598
+msgid "Click to unfollow this user"
+msgstr "Clique para deixar de seguir este usuário"
+
+#: peepsofriends.php:601
+msgid "Stop following"
+msgstr "Parar de seguir"
+
+#: peepsofriends.php:729
+msgid "Someone sent me a Friend Request"
+msgstr "Alguém me enviou um pedido de amizade"
+
+#: templates/friends/notification-popover-item.php:28
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: templates/friends/notification-popover-item.php:31
+msgid "Approve"
+msgstr "Aprovar"
+
+#: templates/friends/submenu.php:9
+msgid "Friend requests"
+msgstr "Pedidos de Amizade"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr "Nova mensagem"
+
+#: templates/widgets/friends.tpl.php:46
+msgid "View All"
+msgstr "Ver Tudo"
+
+#: templates/widgets/friends.tpl.php:52
+#: templates/widgets/mutual-friends.tpl.php:43
+msgid "No friends"
+msgstr "Sem amigos"
+
+#: templates/widgets/friendsbirthday.tpl.php:21
+#: templates/widgets/friendsbirthday.tpl.php:54
+msgid "Birthday Today"
+msgstr "Aniversário Hoje"
+
+#: templates/widgets/friendsbirthday.tpl.php:39
+msgid "Say Happy Birthday!"
+msgstr "Diga Feliz Aniversário!"
+
+#: templates/widgets/friendsbirthday.tpl.php:55
+msgid "No friend's birthdays today."
+msgstr "Nenhum amigo de aniversário hoje."
+
+#: templates/widgets/friendsbirthday.tpl.php:67
+#: templates/widgets/friendsbirthday.tpl.php:116
+msgid "Upcoming Birthday"
+msgstr "Aniversário próximo"
+
+#: templates/widgets/friendsbirthday.tpl.php:100
+#, php-format
+msgid "Birthday tomorrow."
+msgid_plural "Birthday in %s days.</span>"
+msgstr[0] "Aniversário amanhã."
+msgstr[1] "Aniversário em %s dias.</span>"
+
+#: templates/widgets/friendsbirthday.tpl.php:117
+msgid "No upcoming birthdays."
+msgstr "Nenhum aniversário próximo."
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Friends"
+msgstr "PeepSo Core: Amigos"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Friend connections and \"friends\" privacy level"
+msgstr "Conexões de amigos e nível de privacidade de \"amigos\""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

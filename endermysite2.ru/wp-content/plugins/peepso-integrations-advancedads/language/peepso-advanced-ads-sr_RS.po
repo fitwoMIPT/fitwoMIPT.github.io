@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:19+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsoadvancedads.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: peepso-advanced-ads.pot\n"
+"Language: sr_SP\n"
+
+#: classes/advancedadsadtypepeepso.php:10
+msgid "PeepSo Stream Ad"
+msgstr "PeepSo реклама на протоку активности"
+
+#: classes/advancedadsadtypepeepso.php:11
+msgid "Ads that display in PeepSo stream."
+msgstr "Рекламе које се приказују на PeepSo протоку активности."
+
+#: classes/advancedadsadtypepeepso.php:64 templates/selling-ads/ad-setup.php:1
+msgid "Avatar"
+msgstr "Аватар"
+
+#: classes/advancedadsadtypepeepso.php:66
+#: classes/advancedadsadtypepeepso.php:105
+msgid "Insert File"
+msgstr "Убаци фајл"
+
+#: classes/advancedadsadtypepeepso.php:66
+#: classes/advancedadsadtypepeepso.php:105
+msgid "Insert"
+msgstr "Убаци"
+
+#: classes/advancedadsadtypepeepso.php:67
+#: classes/advancedadsadtypepeepso.php:106
+msgid "Change"
+msgstr "Измени"
+
+#: classes/advancedadsadtypepeepso.php:73
+msgid "The uploaded image should be square and at least 128x128 pixels."
+msgstr "Отпремљена слика треба да буде четвртаста и минимално у оквиру 128х128 пиксела."
+
+#: classes/advancedadsadtypepeepso.php:89
+msgid "Content"
+msgstr "Садржај"
+
+#: classes/advancedadsadtypepeepso.php:92
+msgid "Supported HTML tags:"
+msgstr "Подржани HTML тагови:"
+
+#: classes/advancedadsadtypepeepso.php:103 templates/selling-ads/ad-setup.php:8
+msgid "Image"
+msgstr "Слика"
+
+#: classes/advancedadsadtypepeepso.php:111
+msgid "Image will be displayed at full width of your Community stream (depending on theme, layout and screen size). For best results use an image at least 1000 pixels wide."
+msgstr "Слика ће бити приказана у пуној ширини Вашег протока активности у оквиру заједнице (у зависности од теме, прегледности и величине екрана). Ради постизања најбољих резултата, употребите слику ширине најмање 1000 пиксела."
+
+#: classes/advancedadsadtypepeepso.php:125
+#: templates/selling-ads/ad-setup.php:14
+msgid "URL"
+msgstr "URL"
+
+#: classes/advancedadsadtypepeepso.php:128
+msgid "Clicking the image, avatar or title will open the link in a new window/tab. "
+msgstr "Приликом клика на слику, аватар или наслов, отвориће се линк у новом прозору/језичку. "
+
+#: classes/advancedadsadtypepeepso.php:148
+msgid "No image"
+msgstr "Нема слике"
+
+#: classes/advancedadstargeting.php:12
+msgid "equal to"
+msgstr "једнако са"
+
+#: classes/advancedadstargeting.php:13
+msgid "not equal to"
+msgstr "није једнако са"
+
+#: classes/advancedadstargeting.php:14
+msgid "more than"
+msgstr "више од"
+
+#: classes/advancedadstargeting.php:15
+msgid "more than or equal to"
+msgstr "више или једнако са"
+
+#: classes/advancedadstargeting.php:16
+msgid "less than"
+msgstr "мање него"
+
+#: classes/advancedadstargeting.php:17
+msgid "less than or equal to"
+msgstr "мање или једнако са"
+
+#: classes/advancedadstargeting.php:69
+msgid "Field does not exist"
+msgstr "Поље не постоји"
+
+#: classes/advancedadstargeting.php:76
+msgid "No field values"
+msgstr "Нема вредности за поље"
+
+#: classes/advancedadstargeting.php:146
+msgid "No groups"
+msgstr "Нема група"
+
+#: classes/advancedadstargeting.php:151 classes/advancedadstargeting.php:201
+#: peepsoadvancedads.php:276 peepsoadvancedads.php:297
+msgid "(unpublished)"
+msgstr "(уклоњено из објаве)"
+
+#: classes/advancedadstargeting.php:196
+msgid "No VIP icons"
+msgstr "Нема VIP иконица"
+
+#: classes/advancedadstargeting.php:342
+msgid "is"
+msgstr "је"
+
+#: classes/advancedadstargeting.php:342
+msgid "is not"
+msgstr "није"
+
+#: classes/advancedadstargeting.php:352
+msgid "-- choose one --"
+msgstr "-- одабери једно --"
+
+#: classes/configsectionadvancedads.php:18
+msgid "See the Documentation"
+msgstr "Погледајте Документацију"
+
+#: classes/configsectionadvancedads.php:22
+#, php-format
+msgid " Please read the documentation. It will save you time and will teach you how the PeepSo Stream Ads and Ads Targeting based on User Profiles work. %s."
+msgstr " Молимо прочитајте документацију. На тај начин ћете уштедети време и научити како функционишу PeepSo рекламе на протоку активности и циљање реклама на основу корисничких профила. %s."
+
+#: classes/configsectionadvancedads.php:28
+msgid "Important Ad Setup Instructions"
+msgstr "Важна упутства о подешавању реклама"
+
+#: classes/configsectionadvancedads.php:38
+msgid "Ads On Stream"
+msgstr "Рекламе на протоку активности"
+
+#: classes/configsectionadvancedads.php:43
+msgid "0 to disable ads on stream"
+msgstr "0 да би се онемогућиле рекламе на протоку активности"
+
+#: classes/configsectionadvancedads.php:48
+#: classes/configsectionadvancedads.php:67
+msgid "post"
+msgid_plural "posts"
+msgstr[0] "пост"
+msgstr[1] "поста"
+msgstr[2] "постова"
+
+#: classes/configsectionadvancedads.php:50
+#: classes/configsectionadvancedads.php:69
+msgid "(disabled)"
+msgstr "(онемогућено)"
+
+#: classes/configsectionadvancedads.php:56
+msgid "Display PeepSo Ad Placements after:"
+msgstr "Прикажи места за постављање PeepSo реклама након:"
+
+#: classes/configsectionadvancedads.php:63
+msgid "0 to display only once"
+msgstr "0 да би се приказало само једном"
+
+#: classes/configsectionadvancedads.php:75
+msgid "Repeat every each:"
+msgstr "Понови сваки:"
+
+#: classes/configsectionadvancedads.php:82
+msgid "\"Sponsored\" marker"
+msgstr "Ознака \"Спонзорисано\""
+
+#: classes/configsectionadvancedads.php:92
+msgid "Mark PeepSo Stream Ads as \"sponsored\""
+msgstr "Означи PeepSo рекламе на протоку активности као \"спонзорисане\""
+
+#: classes/configsectionadvancedads.php:99
+msgid "Sponsored content"
+msgstr "Спонзорисани садржај"
+
+#: classes/configsectionadvancedads.php:102
+msgid "\"Sponsored content\" text"
+msgstr "Текст \"Спонзорисаног садржаја\""
+
+#: classes/configsectionadvancedads.php:109
+msgid "Stream Ads"
+msgstr "Рекламе на протоку активности"
+
+#: peepsoadvancedads.php:105
+msgid "Display conditions are not supported in PeepSo Stream placement"
+msgstr "Услови за приказ нису подржани у поставци места на PeepSo протоку активности"
+
+#: peepsoadvancedads.php:109
+msgid "\"Position\" and \"show only once\" might not work properly when in PeepSo Stream placement"
+msgstr "\"Позиција\" и \"прикажи само једном\" можда неће функционисати како треба када су у поставци места за PeepSo проток активности"
+
+#: peepsoadvancedads.php:113
+msgid "Some conditions might not work properly when in PeepSo Stream placement"
+msgstr "Неки услови можда неће функционисати како треба када су у поставци места за PeepSo проток активности"
+
+#: peepsoadvancedads.php:148
+msgid "PeepSo Stream"
+msgstr "PeepSo проток активности"
+
+#: peepsoadvancedads.php:149
+msgid "Display this ad in PeepSo Stream"
+msgstr "Прикажи ову рекламу у PeepSo протоку активности"
+
+#: peepsoadvancedads.php:277 peepsoadvancedads.php:298
+#, php-format
+msgid "PeepSo Profile: %s%s%s"
+msgstr "PeepSo Профил: %s%s%s"
+
+#: peepsoadvancedads.php:277
+msgid "Age"
+msgstr "Године старости"
+
+#: peepsoadvancedads.php:281
+msgid "PeepSo User Age"
+msgstr "Године старости PeepSo корисника"
+
+#: peepsoadvancedads.php:312 peepsoadvancedads.php:313
+msgid "PeepSo Friends: Amount Of Friends"
+msgstr "PeepSo Пријатељи: Количина пријатеља"
+
+#: peepsoadvancedads.php:323 peepsoadvancedads.php:324
+msgid "PeepSo Group Membership"
+msgstr "PeepSo Чланство у групама"
+
+#: peepsoadvancedads.php:334 peepsoadvancedads.php:335
+msgid "PeepSo VIP Icon"
+msgstr "PeepSo VIP иконица"
+
+#: peepsoadvancedads.php:380
+#, php-format
+msgid "PeepSo %s requires the Advanced Ads plugin."
+msgstr "PeepSo %s захтева додатак Напредна Реклама."
+
+#: peepsoadvancedads.php:423
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsoadvancedads.php:425 peepsoadvancedads.php:439
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsoadvancedads.php:437
+#, php-format
+msgid "The %s plugin requires the Advanced Ads plugin to be installed and activated."
+msgstr "Додатак %s захтева да додатак Напредне Рекламе буде инсталиран и активиран."
+
+#: peepsoadvancedads.php:451 peepsoadvancedads.php:454
+msgid "Advanced Ads"
+msgstr "Напредне Рекламе"
+
+#: templates/selling-ads/ad-setup.php:4 templates/selling-ads/ad-setup.php:11
+msgid "Max File Size : 1Mb"
+msgstr "Максимална величина фајла: 1Mb"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Advanced Ads"
+msgstr "PeepSo монетизација: Напредне Рекламе"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the Advanced Ads plugin.</strong> Targeted ads throughout Your Community."
+msgstr "<strong>Захтева додатак Напредне Рекламе.</strong> Циљане рекламе у оквиру Ваше Заједнице."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

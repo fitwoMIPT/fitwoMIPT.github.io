@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:22+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsopolls.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: peepso-polls.pot\n"
+"Language: sr_SP\n"
+
+#: classes/configsectionpolls.php:19
+msgid "Enabled: users can cast more than one vote in each poll"
+msgstr "Омогућено: корисници могу да дају више од једног гласа на свакој анкети"
+
+#: classes/configsectionpolls.php:19
+msgid "Disabled: users can only vote for one option in each poll"
+msgstr "Онемогућено: корисници могу да гласају само за једну опцију у свакој анкети"
+
+#: classes/configsectionpolls.php:22
+msgid "Multi select polls"
+msgstr "Анкете са вишеструким избором"
+
+#: classes/configsectionpolls.php:28
+msgid "Enabled: polls are available in group posts"
+msgstr "Омогућено: анкете су на располагању у групним постовима"
+
+#: classes/configsectionpolls.php:28
+msgid "Disabled: polls are only available on community and profile streams"
+msgstr "Онемогућено: анкете су на располагању само на протоку активности заједнице и на профилима"
+
+#: classes/configsectionpolls.php:31
+msgid "Polls in groups"
+msgstr "Анкете у групама"
+
+#: classes/configsectionpolls.php:37 classes/configsectionpolls.php:45
+msgid "Does not apply to poll author and administrators"
+msgstr "Не примењује се на аутора анкете ни на администраторе"
+
+#: classes/configsectionpolls.php:37
+msgid "Enabled: users can change or delete their votes"
+msgstr "Омогућено: корисници могу да измене или обришу своје изборе"
+
+#: classes/configsectionpolls.php:37
+msgid "Disabled: votes are final"
+msgstr "Онемогућено: гласање је коначно"
+
+#: classes/configsectionpolls.php:40
+msgid "Allow vote changes"
+msgstr "Дозволи измену избора у гласању"
+
+#: classes/configsectionpolls.php:45
+msgid "Enabled: users can see poll results before voting"
+msgstr "Омогућено: корисници могу да виде резултате анкета пре гласања"
+
+#: classes/configsectionpolls.php:45
+msgid "Disabled: results are hidden from users who haven't voted yet"
+msgstr "Онемогућено: резултати су сакривени од корисника који још увек нису гласали"
+
+#: classes/configsectionpolls.php:48
+msgid "Always show results"
+msgstr "Увек прикажи резултате"
+
+#: classes/configsectionpolls.php:57
+msgid "General"
+msgstr "Опште"
+
+#: classes/pollsajax.php:27 classes/pollsajax.php:95 classes/pollsajax.php:133
+msgid "Invalid user id"
+msgstr "Неважећи идентификациони број корисника"
+
+#: classes/pollsajax.php:29 classes/pollsajax.php:97 classes/pollsajax.php:135
+msgid "Invalid poll id"
+msgstr "Неважећи идентификациони број анкете"
+
+#: classes/pollsajax.php:31
+msgid "No poll selected"
+msgstr "Није изабрана било каква анкета"
+
+#: classes/pollsajax.php:33
+msgid "Max 1 selected"
+msgstr "Максимално 1 одабир"
+
+#: classes/pollsajax.php:35
+msgid "Already voted"
+msgstr "Већ сте гласали"
+
+#: peepsopolls.php:224
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsopolls.php:226
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsopolls.php:254
+msgid "Polls"
+msgstr "Анкете"
+
+#: peepsopolls.php:257
+msgid "PeepSo Polls"
+msgstr "PeepSo Анкете"
+
+#: peepsopolls.php:280 peepsopolls.php:328
+msgid "Poll"
+msgstr "Анкета"
+
+#: peepsopolls.php:343
+msgid "Say something about this poll..."
+msgstr "Реците нешто о овој анкети..."
+
+#: peepsopolls.php:344
+#, php-format
+msgid "Option %d"
+msgstr "Опција %d"
+
+#: peepsopolls.php:359
+msgid " asked a question"
+msgstr " је поставио/ла питање"
+
+#: peepsopolls.php:508 templates/polls/content-media.php:54
+msgid "Change Vote"
+msgstr "Измени избор у гласању"
+
+#: templates/polls/content-media.php:16
+msgid "(no votes yet)"
+msgstr "(још увек нема избора гласања)"
+
+#: templates/polls/content-media.php:27
+msgid "of"
+msgstr "од"
+
+#: templates/polls/content-media.php:56
+msgid "Submit"
+msgstr "Поднеси"
+
+#: templates/polls/content-media.php:64
+msgid "Unvote"
+msgstr "Поништи гласање"
+
+#: templates/polls/content-media.php:72
+msgid "Login to cast your vote and to see results."
+msgstr "Улогујте се да бисте гласали и видели резултате."
+
+#: templates/polls/postbox-polls.php:7 templates/polls/postbox-polls.php:12
+msgid "Move"
+msgstr "Премести"
+
+#: templates/polls/postbox-polls.php:8
+msgid "Option 1"
+msgstr "Опција 1"
+
+#: templates/polls/postbox-polls.php:9 templates/polls/postbox-polls.php:14
+msgid "Delete"
+msgstr "Обриши"
+
+#: templates/polls/postbox-polls.php:13
+msgid "Option 2"
+msgstr "Опција 2"
+
+#: templates/polls/postbox-polls.php:19
+msgid "Add new option"
+msgstr "Додај нову опцију"
+
+#: templates/polls/postbox-polls.php:24
+msgid "Allow multiple options selection"
+msgstr "Дозволи вишеструки одабир опција"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Polls"
+msgstr "PeepSo Core: Анкете"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Post a question and let users vote"
+msgstr "Постуј питање и дозволи корисницима да изгласају одговор"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""
+

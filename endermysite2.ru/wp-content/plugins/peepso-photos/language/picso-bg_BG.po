@@ -1,0 +1,885 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:11+0700\n"
+"PO-Revision-Date: 2018-04-18 05:30-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsosharephotos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: picso.pot\n"
+"Language: bg_BG\n"
+
+#: classes/configsectionphotos.php:27 classes/photosadmin.php:45
+#, php-format
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "Максималният размер за качване във WordPress е %1$s Mb"
+
+#: classes/configsectionphotos.php:30 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "Максимален размер за качване в мегабайти"
+
+#: classes/configsectionphotos.php:37
+#, php-format
+msgid "WordPress maximum upload size allowed is %1$sMB, set 0 for Unlimited"
+msgstr "Mаксималният разрешен размер за качване във WordPress е %1$s MB. Задайте 0 за неограничен."
+
+#: classes/configsectionphotos.php:40 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "Разрешено място на всеки потребител в мегабайти"
+
+#: classes/configsectionphotos.php:45 classes/configsectionphotos.php:62
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "Неограничено"
+
+#: classes/configsectionphotos.php:46 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:47 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:48 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:49 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:56 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "Максимален брой снимки на потребител"
+
+#: classes/configsectionphotos.php:63 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:64 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:65 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:66 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:73 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "Ограничение за качване на снимки от потребител за 1 ден"
+
+#: classes/configsectionphotos.php:78 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "Използване на оригинала"
+
+#: classes/configsectionphotos.php:79 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "Преоразмеряване"
+
+#: classes/configsectionphotos.php:86 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "Режим на работа при качване на снимки"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "Максимална ширина на изображение"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "Максимална височина на изображение"
+
+#: classes/configsectionphotos.php:113 classes/configsectionphotos.php:131
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "препоръчително"
+
+#: classes/configsectionphotos.php:119 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "Качество на изображението"
+
+#: classes/configsectionphotos.php:137 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "Качество на снимките на профилите"
+
+#: classes/configsectionphotos.php:143
+msgid "General"
+msgstr "Основни настройки"
+
+#: classes/configsectionphotos.php:155 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "Разреши съхранение в AWS S3"
+
+#: classes/configsectionphotos.php:159 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "ID на код за достъп, който сте получили, когато сте се регистрирали в AWS (20 символа)"
+
+#: classes/configsectionphotos.php:161 classes/photosadmin.php:200
+msgid "Amazon Access Key ID is required"
+msgstr "Изисква ID на код за достъп в Amazon"
+
+#: classes/configsectionphotos.php:165 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "ID на код за достъп в Amazon"
+
+#: classes/configsectionphotos.php:169 classes/photosadmin.php:210
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "Секретен ключ за достъп в AWS, който сте получили, когато сте се регистрирали в AWS (40 символа)"
+
+#: classes/configsectionphotos.php:171 classes/photosadmin.php:215
+msgid "Amazon Secret Access Key is required"
+msgstr "Секретеният ключ за достъп в Amazon е задължителен"
+
+#: classes/configsectionphotos.php:174 classes/photosadmin.php:209
+msgid "Amazon Secret Access Key"
+msgstr "Секретен ключ за достъп в Amazon"
+
+#: classes/configsectionphotos.php:178 classes/photosadmin.php:225
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr "Името на Bucket-а, за да качите вашите снимки на Amazon S3"
+
+#: classes/configsectionphotos.php:180 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket is required"
+msgstr "Amazon S3 Bucket е задължителен"
+
+#: classes/configsectionphotos.php:183 classes/photosadmin.php:224
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3 Bucket"
+
+#: classes/configsectionphotos.php:193 classes/photosadmin.php:243
+msgid "AWS Error History:"
+msgstr "AWS история на грешките:"
+
+#: classes/configsectionphotos.php:203 classes/photosadmin.php:258
+#, php-format
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "За да разрешите използването на AWS, задайте \"ДА\" на \"Разреши съхранение в AWS S3\" и попълнете полетата с допълнителните настройки. <br/> За да получите вашия ID код и ключове за достъп до AWS, трябва да се регистрирате за: %sКлючове за достъп до AWS%s."
+
+#: classes/configsectionphotos.php:215
+msgid "AWS"
+msgstr "AWS"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "Включване на използването на Amazon AWS за съхранение на снимки"
+
+#: classes/photosadmin.php:254
+msgid "Photos Settings"
+msgstr "Настройки на снимки"
+
+#: classes/photosadmin.php:257
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "Конфигуриране на качването на снимки в PeepSo."
+
+#: classes/photosadmin.php:284
+#, php-format
+msgid "Photo of post %s"
+msgstr "Снимка на пост %s"
+
+#: classes/photosadmin.php:293
+#, php-format
+msgid "Photo %1$d of post %2$s"
+msgstr "Снимка %1$d на пост %2$s"
+
+#: classes/photosadmin.php:337
+msgid "Like Photo"
+msgstr "Харесване на снимки"
+
+#: classes/photosadmin.php:338
+msgid "This will be sent when a user \"likes\" another user's photo."
+msgstr "Това ще бъде изпратенo, когато потребител \"Хареса\" снимка на друг потребител."
+
+#: classes/photosadmin.php:340
+msgid "User Comment Photo"
+msgstr "Коментиране на снимки"
+
+#: classes/photosadmin.php:341
+msgid "This will be sent to a photo owner when another user comments on the photo"
+msgstr "Това ще бъде изпратено до собственика на снимката, когато друг потребител я коментира."
+
+#: classes/photosadmin.php:343
+msgid "User Share Photo"
+msgstr "Споделяне на снимка"
+
+#: classes/photosadmin.php:344
+msgid "This will be sent to a photo owner when another user shares on the photo"
+msgstr "Това ще бъде изпратено до собственика на снимката, когато друг потребител я сподели."
+
+#: classes/photosadmin.php:347
+msgid "Like Avatar"
+msgstr "Харесване на снимки на профилите"
+
+#: classes/photosadmin.php:348
+msgid "This will be sent when a user \"likes\" another user's avatar."
+msgstr "Това ще бъде изпратенo, когато потребител \"Хареса\" снимката на профила на друг потребител."
+
+#: classes/photosadmin.php:350
+msgid "User Comment Avatar"
+msgstr "Коментиране на снимка на профила"
+
+#: classes/photosadmin.php:351
+msgid "This will be sent to a avatar owner when another user comments on the avatar"
+msgstr "Това ще бъде изпратено до собственика на снимката на профила, когато друг потребител я коментира."
+
+#: classes/photosadmin.php:353
+msgid "User Share Avatar"
+msgstr "Споделяне на снимка на профила"
+
+#: classes/photosadmin.php:354
+msgid "This will be sent to a avatar owner when another user shares on the avatar"
+msgstr "Това ще бъде изпратено до собственика на снимката на профила, когато друг потребител я сподели."
+
+#: classes/photosadmin.php:357
+msgid "Like Cover"
+msgstr "Харесване на корици"
+
+#: classes/photosadmin.php:358
+msgid "This will be sent when a user \"likes\" another user's cover."
+msgstr "Това ще бъде изпратенo, когато потребител \"Хареса\" снимката на корицата на друг потребител."
+
+#: classes/photosadmin.php:360
+msgid "User Comment Cover"
+msgstr "Коментиране на корици"
+
+#: classes/photosadmin.php:361
+msgid "This will be sent to a cover owner when another user comments on the cover"
+msgstr "Това ще бъде изпратено до собственика на корицата, когато друг потребител я коментира."
+
+#: classes/photosadmin.php:363
+msgid "User Share Cover"
+msgstr "Споделяне на снимка на корицата"
+
+#: classes/photosadmin.php:364
+msgid "This will be sent to a cover owner when another user shares on the cover"
+msgstr "Това ще бъде изпратено до собственика на корицата, когато друг потребител я сподели."
+
+#: classes/photosadmin.php:367
+msgid "Like Album"
+msgstr "Харесване на албуми"
+
+#: classes/photosadmin.php:368
+msgid "This will be sent when a user \"likes\" another user's album."
+msgstr "Това ще бъде изпратенo, когато потребител \"Хареса\" албум на друг потребител."
+
+#: classes/photosadmin.php:370
+msgid "User Comment Album"
+msgstr "Коментиране на албуми"
+
+#: classes/photosadmin.php:371
+msgid "This will be sent to a album owner when another user comments on the album"
+msgstr "Това ще бъде изпратено до собственика на албума, когато друг потребител го коментира."
+
+#: classes/photosadmin.php:373
+msgid "User Share Album"
+msgstr "Споделяне на албум"
+
+#: classes/photosadmin.php:374
+msgid "This will be sent to a album owner when another user shares on the album"
+msgstr "Това ще бъде изпратено до собственика на албума, когато друг потребител го сподели."
+
+#: classes/photosajax.php:19
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "Достигнат е максималният обем за качване на снимки. Изтрийте постове със снимки, за да освободите място."
+
+#: classes/photosajax.php:44
+#, php-format
+msgid "Only files up to %1$dMB are allowed"
+msgstr "Разрешени са само файлове с размер до %1$d Mb"
+
+#: classes/photosajax.php:84
+#, php-format
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "Разрешени са само снимки с максимална широчина %1$d px. Необходимо е да ги преоразмерите."
+
+#: classes/photosajax.php:86
+#, php-format
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "Разрешени са само снимки с минимална широчина %1$d px. Необходимо е да ги преоразмерите."
+
+#: classes/photosajax.php:90
+#, php-format
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "Изображението надхвърля максималния размер от %1$d x %2$d px."
+
+#: classes/photosajax.php:174
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Достигнат е максималният дневен обем за качване на снимки. Изтрийте постове със снимки, за да освободите място."
+
+#: classes/photosajax.php:178
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Достигнат е максималният обем за качване на снимки. Изтрийте постове със снимки, за да освободите място."
+
+#: classes/photosajax.php:180
+#, php-format
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Разрешени са само файлове с размер до %1$d Mb."
+
+#: classes/photosajax.php:182
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "Достигнат е максималният обем за качване на файлове. Изтрийте постове със снимки, за да освободите място."
+
+#: classes/photosajax.php:238
+msgid "You don't have any photos yet"
+msgstr "Все още нямате добавени снимки"
+
+#: classes/photosajax.php:238
+#, php-format
+msgid "%s doesn't have any photos yet"
+msgstr "%s все още няма добавени снимки"
+
+#: classes/photosajax.php:361 classes/photosajax.php:413
+#: classes/photosajax.php:462 classes/photosajax.php:531
+#: classes/photosajax.php:573 classes/photosajax.php:647
+#: classes/photosajax.php:671 classes/photosajax.php:721
+#: classes/photosajax.php:751 classes/photosajax.php:832
+msgid "Request could not be verified."
+msgstr "Заявката не може да бъде потвърдена."
+
+#: classes/photosajax.php:390
+msgid "Your avatar has been changed."
+msgstr "Вашата снимка на профила е променена."
+
+#: classes/photosajax.php:395
+msgid "You are not authorized to use this photo as avatar."
+msgstr "Не сте упълномощени да използвате тази снимка като снимка на профила."
+
+#: classes/photosajax.php:401 classes/photosajax.php:450
+#: classes/photosajax.php:518 classes/photosajax.php:635
+msgid "Photo not found"
+msgstr "Снимката не е намерена"
+
+#: classes/photosajax.php:439
+msgid "Your profile cover has been changed."
+msgstr "Вашата профилна снимка е променена."
+
+#: classes/photosajax.php:444
+msgid "You are not authorized to use this photo as cover."
+msgstr "Не сте упълномощени да използвате тази снимка като корица."
+
+#: classes/photosajax.php:507
+msgid "Album "
+msgstr "Албум "
+
+#: classes/photosajax.php:512
+msgid "You are not authorized to create album for this user."
+msgstr "Не сте упълномощени да създадете албум за този потребител."
+
+#: classes/photosajax.php:562 classes/photosajax.php:660
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "Временният файл е изтрит"
+msgstr[1] "Временните файлове са изтрити"
+
+#: classes/photosajax.php:620
+msgid "New photos added"
+msgstr "Добавени са нови снимки"
+
+#: classes/photosajax.php:623
+msgid "Activity is not found."
+msgstr "Активността не е намерена."
+
+#: classes/photosajax.php:629
+msgid "You are not authorized to add photos."
+msgstr "Не сте упълномощени да добавяте снимки."
+
+#: classes/photosajax.php:704
+msgid "Photo Album has been deleted."
+msgstr "Албумът е изтрит."
+
+#: classes/photosajax.php:709 classes/photosajax.php:739
+msgid "You are not authorized to change this album name."
+msgstr "Не сте упълномощени да променяте името на този албум."
+
+#: classes/photosajax.php:734
+msgid "Photo Album name saved."
+msgstr "Името на албума е записано."
+
+#: classes/photosajax.php:785
+msgid "Photo Album description saved."
+msgstr "Описанието на албума е записано."
+
+#: classes/photosajax.php:790
+msgid "You are not authorized to change this album description."
+msgstr "Не сте упълномощени да променяте описанието на този албум."
+
+#: classes/photosajax.php:819
+msgid "Invalid extra field."
+msgstr "Невалидно допълнително поле."
+
+#: classes/photosajax.php:845
+msgid "Photo Album access changed."
+msgstr "Достъпът до албума е променен."
+
+#: classes/photosajax.php:850
+msgid "You are not authorized to change this album access."
+msgstr "Не сте упълномощени да променяте достъпа до този албум."
+
+#: classes/photosajax.php:890
+msgid "You do not have permission to do that."
+msgstr "Нямате права да направите това."
+
+#: classes/photosmodel.php:448
+msgid "Missing Amazon configuration."
+msgstr "Липсват настройки на Amazon."
+
+#: classes/photosmodel.php:516
+#, php-format
+msgid "S3 Exception: %1$s"
+msgstr "S3 изключение: %1$s"
+
+#: classes/photosmodel.php:519
+#, php-format
+msgid "There was a problem uploading the file: %1$s"
+msgstr "Възникна проблем при качването на файла: %1$s"
+
+#: classes/photosmodel.php:534
+msgid "There was an error setting up Amazon S3 library."
+msgstr "Възникна грешка при настройката на Amazon S3 library."
+
+#: classes/photosmodel.php:548
+#, php-format
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "Възникна грешка при изстриване на файла %1$s. Грешка: %2$s"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "PeepSo Всички снимки"
+
+#: classes/widgets/widgetcommunityphotos.php:87
+msgid "Latest Photos"
+msgstr "Последни снимки"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:376
+msgid "PeepSo Photos"
+msgstr "PeepSo Снимки"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "PeepSo Снимки"
+
+#: classes/widgets/widgetphotos.php:104
+msgid "My Photos"
+msgstr "Моите снимки"
+
+#: peepsosharephotos.php:235
+msgid "Profile Avatars"
+msgstr "Снимки на профила"
+
+#: peepsosharephotos.php:239
+msgid "Profile Covers"
+msgstr "Корици на профила"
+
+#: peepsosharephotos.php:243
+msgid "Stream Photos"
+msgstr "Снимки"
+
+#: peepsosharephotos.php:354
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: peepsosharephotos.php:356
+msgid "Get it now!"
+msgstr "Вземи го сега!"
+
+#: peepsosharephotos.php:373 peepsosharephotos.php:1227
+#: peepsosharephotos.php:1323 peepsosharephotos.php:1334
+#: templates/photos/photos-group.php:23 templates/photos/photos-group.php:28
+#: templates/photos/photos.php:21 templates/photos/photos.php:26
+msgid "Photos"
+msgstr "Снимки"
+
+#: peepsosharephotos.php:446
+msgid "Upload Failed! Please try again."
+msgstr "Неуспешно качване! Моля, опитайте отново."
+
+#: peepsosharephotos.php:466
+msgid "Only "
+msgstr "Само "
+
+#: peepsosharephotos.php:467 templates/photos/postbox-photos.php:21
+msgid "Supported formats are: gif, jpg, jpeg, tiff, and png."
+msgstr "Поддържат се само формати: gif, jpg, jpeg, tiff и png."
+
+#: peepsosharephotos.php:520 peepsosharephotos.php:1777
+msgid "Upload photos"
+msgstr "Прикачете снимка"
+
+#: peepsosharephotos.php:602
+msgid "Photo"
+msgstr "Снимка"
+
+#: peepsosharephotos.php:704
+msgid " uploaded a new avatar"
+msgstr " качи нова снимка на профила"
+
+#: peepsosharephotos.php:707
+msgid " uploaded a new profile cover"
+msgstr " качи нова корица на профила"
+
+#: peepsosharephotos.php:725
+#, php-format
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " добави %1$d снимка в албума <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " добави %1$d снимки в албума <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:730
+#, php-format
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] " качи %1$d снимка"
+msgstr[1] " качи %1$d снимки"
+
+#: peepsosharephotos.php:738
+msgid " shared photos"
+msgstr " сподели снимки"
+
+#: peepsosharephotos.php:1176
+msgid "album"
+msgstr "албум"
+
+#: peepsosharephotos.php:1188 peepsosharephotos.php:1211
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "снимка"
+msgstr[1] "снимки"
+
+#: peepsosharephotos.php:1196
+msgid "avatar"
+msgstr "снимка на профила"
+
+#: peepsosharephotos.php:1201
+msgid "cover photo"
+msgstr "снимка на корицата"
+
+#: peepsosharephotos.php:1230
+msgid "Someone liked my Photos"
+msgstr "Някой е харесал мои снимки"
+
+#: peepsosharephotos.php:1235
+msgid "Someone commented on my Photos"
+msgstr "Някой е коментирал мои снимки"
+
+#: peepsosharephotos.php:1240
+msgid "Someone shared my Photos"
+msgstr "Някой е споделил мои снимки"
+
+#: peepsosharephotos.php:1246
+msgid "Someone liked my Avatar"
+msgstr "Някой е харесал моята снимка на профила"
+
+#: peepsosharephotos.php:1251
+msgid "Someone commented on my Avatar"
+msgstr "Някой е коментирал моята снимка на профила"
+
+#: peepsosharephotos.php:1256
+msgid "Someone shared my Avatar"
+msgstr "Някой е споделил моята снимка на профила"
+
+#: peepsosharephotos.php:1262
+msgid "Someone liked my Cover Photo"
+msgstr "Някой е харесал моята снимка на корицата"
+
+#: peepsosharephotos.php:1267
+msgid "Someone commented on my Cover Photo"
+msgstr "Някой е коментирал моята снимка на корицата"
+
+#: peepsosharephotos.php:1272
+msgid "Someone shared my Cover Photo"
+msgstr "Някой е споделил моята снимка на корицата"
+
+#: peepsosharephotos.php:1278
+msgid "Someone liked my Album"
+msgstr "Някой е харесал мой албум"
+
+#: peepsosharephotos.php:1283
+msgid "Someone commented on my Album"
+msgstr "Някой е коментирал мой албум"
+
+#: peepsosharephotos.php:1288
+msgid "Someone shared my Album"
+msgstr "Някой е споделил мой албум"
+
+#: peepsosharephotos.php:1560
+msgid "Delete Album"
+msgstr "Изтриване на албум"
+
+#: peepsosharephotos.php:2065
+msgid "Enable post updates upon user avatar change"
+msgstr "Разреши пост при смяна на снимка на профила на потребител"
+
+#: peepsosharephotos.php:2066
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "Публикува се пост в потока с активности, когато потребител си промени снимката на профила."
+
+#: peepsosharephotos.php:2073
+msgid "Enable post updates upon user cover change"
+msgstr "Разреши пост при смяна на снимка на корицата"
+
+#: peepsosharephotos.php:2074
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "Публикува се пост в потока с активности, когато потребител си промени снимката на корицата."
+
+#: peepsosharephotos.php:2090
+msgid "Enable post updates upon groups avatar change"
+msgstr "Разреши пост при смяна на снимка на група"
+
+#: peepsosharephotos.php:2091
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "Публикува се пост в потока с активности, когато потребител промени снимката на група."
+
+#: peepsosharephotos.php:2098
+msgid "Enable post updates upon groups cover change"
+msgstr "Разреши пост при смяна на снимка на корица на група"
+
+#: peepsosharephotos.php:2099
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "Публикува се пост в потока с активности, когато потребител промени снимка на корица на група."
+
+#: templates/photos/modal-photo-item.php:12
+msgid "Are you sure you want to delete this picture and the post?"
+msgid_plural "Are you sure you want to delete this picture from your post?"
+msgstr[0] "Сигурни ли сте, че искате да изтриете тази снимка и поста в потока?"
+msgstr[1] "Сигурни ли сте, че искате да изтриете тези снимки и постове в потока?"
+
+#: templates/photos/modal-photo-item.php:20
+msgid "Options"
+msgstr "Опции"
+
+#: templates/photos/modal-photo-item.php:30
+msgid "Set as avatar"
+msgstr "Задай като аватар"
+
+#: templates/photos/modal-photo-item.php:31
+msgid "Set as cover"
+msgstr "Задай като корица"
+
+#: templates/photos/modal-photo-item.php:35
+msgid "Download"
+msgstr "Изтегляне"
+
+#: templates/photos/photo-album-custom.php:17
+#: templates/photos/photo-group-album-custom.php:21
+msgid "Back"
+msgstr "Назад"
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Add Photos"
+msgstr "Добавяне на снимки"
+
+#: templates/photos/photo-album-custom.php:36
+#: templates/photos/photo-album-custom.php:110
+#: templates/photos/photo-album-dialog.php:62
+#: templates/photos/photo-album-upload.php:22
+#: templates/photos/photo-group-album-custom.php:39
+#: templates/photos/photo-group-album-custom.php:79
+msgid "Cancel"
+msgstr "Отказ"
+
+#: templates/photos/photo-album-custom.php:40
+#: templates/photos/photo-group-album-custom.php:43
+msgid "Save"
+msgstr "Запиши"
+
+#: templates/photos/photo-album-custom.php:51
+#: templates/photos/photo-group-album-custom.php:54
+msgid "Are you sure you want to delete this album?"
+msgstr "Сигурни ли сте, че искате да изтриете този албум?"
+
+#: templates/photos/photo-album-custom.php:73
+#: templates/photos/photo-album-dialog.php:44
+#: templates/photos/photo-group-album-custom.php:63
+msgid "Album description"
+msgstr "Описание на албума"
+
+#: templates/photos/photo-album-custom.php:106
+#: templates/photos/photo-group-album-custom.php:75
+msgid "No description"
+msgstr "Няма описание"
+
+#: templates/photos/photo-album-custom.php:113
+#: templates/photos/photo-group-album-custom.php:82
+msgid "Save description"
+msgstr "Запис на описанието"
+
+#: templates/photos/photo-album-custom.php:125
+#: templates/photos/photo-album.php:16
+#: templates/photos/photo-group-album-custom.php:94
+#: templates/photos/photo-group-album.php:19
+#: templates/photos/photos-group.php:37 templates/photos/photos.php:52
+msgid "Newest first"
+msgstr "Най-новите първи"
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-album.php:17
+#: templates/photos/photo-group-album-custom.php:95
+#: templates/photos/photo-group-album.php:20
+#: templates/photos/photos-group.php:38 templates/photos/photos.php:53
+msgid "Oldest first"
+msgstr "Най-старите първи"
+
+#: templates/photos/photo-album-custom.php:169
+#: templates/photos/photo-group-album-custom.php:146
+msgid "Write a comment..."
+msgstr "Напиши коментар..."
+
+#: templates/photos/photo-album-custom.php:181
+#: templates/photos/photo-group-album-custom.php:158
+msgid "Clear"
+msgstr "Изчисти"
+
+#: templates/photos/photo-album-custom.php:182
+#: templates/photos/photo-group-album-custom.php:159
+msgid "Post"
+msgstr "Публикувай"
+
+#: templates/photos/photo-album-dialog.php:8
+#: templates/photos/photo-album-dialog.php:65
+#: templates/photos/photos-group.php:16 templates/photos/photos.php:14
+#: templates/photos/photos.php:42
+msgid "Create Album"
+msgstr "Създаване на албум"
+
+#: templates/photos/photo-album-dialog.php:15
+msgid "Album name"
+msgstr "Име"
+
+#: templates/photos/photo-album-dialog.php:20
+msgid "Album name can't be empty"
+msgstr "Името на албума не може да бъде празно"
+
+#: templates/photos/photo-album-dialog.php:28
+msgid "Album privacy"
+msgstr "Поверителност"
+
+#: templates/photos/photo-album-dialog.php:54
+#: templates/photos/photo-album-upload.php:14
+msgid "Upload photos to album"
+msgstr "Качване на снимки в албума"
+
+#: templates/photos/photo-album-dialog.php:57
+#: templates/photos/photo-album-upload.php:17
+msgid "Please select at least one photo to be uploaded"
+msgstr "Моля изберете поне една снимка за качване"
+
+#: templates/photos/photo-album-upload.php:5
+msgid "Upload Photo"
+msgstr "Качване на снимка"
+
+#: templates/photos/photo-album-upload.php:9
+msgid "Photo privacy is inherited from the album"
+msgstr "Поверителността на снимките се наследява от албума"
+
+#: templates/photos/photo-album-upload.php:25
+msgid "Add photos to album"
+msgstr "Добави снимки в албума"
+
+#: templates/photos/photo-album.php:9 templates/photos/photo-group-album.php:12
+msgid "Back to Photos"
+msgstr "Обратно към снимките"
+
+#: templates/photos/photo-album.php:12
+#: templates/photos/photo-group-album.php:15
+#, php-format
+msgid "%s Album"
+msgstr "Албум \"%s\""
+
+#: templates/photos/photo-comment.php:12 templates/photos/photo-item.php:15
+msgid "Gif"
+msgstr "Gif"
+
+#: templates/photos/photo-group-item-album.php:27
+#: templates/photos/photo-item-album.php:27
+#, php-format
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s снимка"
+msgstr[1] "%s снимки"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "Публично"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "Потребители"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "Частен"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "Приятели"
+
+#: templates/photos/photos-group.php:23 templates/photos/photos-group.php:29
+#: templates/photos/photos.php:21 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "Албуми"
+
+#: templates/photos/photos.php:34
+msgid "Recently added photos"
+msgstr "Последно добавени снимки"
+
+#: templates/photos/photos.php:36
+msgid "Photo Albums"
+msgstr "Албуми"
+
+#: templates/photos/postbox-photos.php:8
+msgid "Click here to start uploading photos"
+msgstr "Щракнете тук, за да качите снимки"
+
+#: templates/photos/postbox-photos.php:11
+#, php-format
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "Максимални размери на снимките: %1$s x %2$s px | Максимален размер на файла: %3$s Mb"
+
+#: templates/photos/postbox-photos.php:22
+msgid "Say something about this photo..."
+msgstr "Кажете нещо за тази снимка..."
+
+#: templates/widgets/community-photos.tpl.php:31
+#: templates/widgets/photos.tpl.php:41
+msgid "No photos"
+msgstr "Няма снимки"
+
+#: templates/widgets/photos.tpl.php:35
+msgid "View All"
+msgstr "Виж всички"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo Core: Снимки"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "Качване на снимки и албуми"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

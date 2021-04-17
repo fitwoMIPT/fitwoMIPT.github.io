@@ -1,0 +1,30 @@
+{
+  "name": "peepso-core-photos",
+  "private": true,
+  "scripts": {
+    "build": "browserify -e assets/js/index.js | uglifyjs -c -m -o assets/js/bundle.min.js",
+    "watch": "watchify -e assets/js/index.js -o assets/js/bundle.min.js --delay 1500"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@wordpress/browserslist-config": "^2.6.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "browserify-shim": "^3.8.14",
+    "uglify-js": "^3.6.8",
+    "watchify": "^3.11.1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "underscore": "global:_",
+    "peepso": "global:peepso",
+    "peepsodata": "global:peepsodata"
+  }
+}

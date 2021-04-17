@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:11+0700\n"
+"PO-Revision-Date: 2018-04-18 05:31-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsovideos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: vidso.pot\n"
+"Language: fa_IR\n"
+
+#: classes/videosadmin.php:36
+#, php-format
+msgid "Video of post %s"
+msgstr "ویدیوی مطلب %s"
+
+#: classes/videosadmin.php:54
+msgid "Like Video"
+msgstr "پسندیدن ویدیو"
+
+#: classes/videosadmin.php:55
+msgid "This will be sent when a user \"likes\" another user's video."
+msgstr "زمانی که یک کاربر ویدیوی کاربر دیگری را بپسندد ارسال خواهد شد."
+
+#: classes/videosadmin.php:59
+msgid "User Comment Video"
+msgstr "نظر کاربر روی ویدیو"
+
+#: classes/videosadmin.php:60
+msgid "This will be sent to a video owner when another user comments on the video"
+msgstr "وقتی کاربری روی ویدیوی کاربر دیگری نظر دهد ارسال خواهد شد"
+
+#: classes/videosajax.php:32
+msgid "Sorry, this is not a valid video.<br><small>Please make sure you're using a valid URL, not and embed code.</small>"
+msgstr "با عرض پوزش، این ویدیو معتبر نیست. <br><small>لطفاً مطمئن شوید از آدرس معتبری استفاده می کنید و کد چسبانده نیست.</small>"
+
+#: classes/videosajax.php:103
+msgid "You don't have any videos yet"
+msgstr "شما در حال حاضر هیچ ویدیویی ندارید"
+
+#: classes/videosajax.php:103
+#, php-format
+msgid "%s doesn't have any videos yet"
+msgstr "%s در حال حاضر هیچ ویدیویی ندارد"
+
+#: classes/widgets/widgetcommunityvideos.php:12
+msgid "PeepSo Community Videos"
+msgstr "ویدیوهای انجمن PeepSo"
+
+#: classes/widgets/widgetcommunityvideos.php:13
+msgid "PeepSo Community Videos Widget"
+msgstr "ابزارک ویدیوهای انجمن PeepSo"
+
+#: classes/widgets/widgetcommunityvideos.php:86
+msgid "Latest Videos"
+msgstr "آخرین ویدیوها"
+
+#: classes/widgets/widgetvideos.php:12
+msgid "PeepSo Videos"
+msgstr "ویدیوهای PeepSo"
+
+#: classes/widgets/widgetvideos.php:13
+msgid "PeepSo Videos Widget"
+msgstr "ابزارک ویدیوهای PeepSo"
+
+#: classes/widgets/widgetvideos.php:103
+msgid "My Videos"
+msgstr "ویدیوهای من"
+
+#: peepsovideos.php:259
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "افزونه %s برای نصب و فعالسازی به افزونه PeepSo نیاز دارد."
+
+#: peepsovideos.php:261
+msgid "Get it now!"
+msgstr "اکنون دریافت کنید!"
+
+#: peepsovideos.php:306
+msgid "Video"
+msgstr "ویدیو"
+
+#: peepsovideos.php:595
+msgid " posted a video"
+msgstr " ارسال یک ویدیو"
+
+#: peepsovideos.php:693
+msgid "Upload videos"
+msgstr "بارگذاری ویدیو"
+
+#: peepsovideos.php:761
+msgid "video"
+msgstr "ویدئو"
+
+#: peepsovideos.php:811 peepsovideos.php:838 peepsovideos.php:849
+msgid "Videos"
+msgstr "ویدئوها"
+
+#: peepsovideos.php:814
+msgid "Someone liked my Video"
+msgstr "کسی ویدیوی مرا پسندید"
+
+#: peepsovideos.php:819
+msgid "Someone commented on my Video"
+msgstr "کسی روی ویدیوی من نظر داد"
+
+#: peepsovideos.php:824
+msgid "Someone shared my Video"
+msgstr "کسی ویدیوی مرا به اشتراک گذاشت"
+
+#: templates/videos/post-edit.php:1
+msgid "Enter video URL here. Use browser link, not embed code."
+msgstr "آدرس کلیپ را در اینجا وارد کنید. از لینک مرورگر استفاده کنید نه کدهای جاسازی."
+
+#: templates/videos/postbox-videos.php:5
+msgid "Enter video URL here"
+msgstr "آدرس کلیپ را در اینجا وارد کنید"
+
+#: templates/videos/videos-group.php:13 templates/videos/videos.php:11
+msgid "Newest first"
+msgstr "ابتدا جدیدترها"
+
+#: templates/videos/videos-group.php:14 templates/videos/videos.php:12
+msgid "Oldest first"
+msgstr "ابتدا قدیمی ترها"
+
+#: templates/widgets/community-videos.tpl.php:34
+#: templates/widgets/videos.tpl.php:42
+msgid "No videos"
+msgstr "ویدیویی وجود ندارد"
+
+#: templates/widgets/videos.tpl.php:36
+msgid "View All"
+msgstr "مشاهده همه"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Videos"
+msgstr "هسته PeepSo: ویدیوها"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Link videos from supported providers"
+msgstr "پیوند دادن ویدیوها از سرویس‌های پشتیبانی شده"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

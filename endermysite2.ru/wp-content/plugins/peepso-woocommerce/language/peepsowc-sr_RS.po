@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:25+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: peepsowc.pot\n"
+"Language: sr_SP\n"
+
+#: admin/class-wbpwi-admin-settings-display.php:28
+msgid "WooCommerce Tabs Display"
+msgstr "Приказ WooCommerce језичака"
+
+#: admin/class-wbpwi-admin-settings-display.php:45
+msgid "PeepSo WooCommerce Tabs Setting"
+msgstr "Подешавање PeepSo WooCommerce језичака"
+
+#: admin/class-wbpwi-admin-settings-display.php:46
+msgid "Here you can enable or disable woocommerce tabs in PeepSo member single page."
+msgstr "Овде можете да омогућите или онемогућите woocommerce језичке на појединачној страници за PeepSo члана."
+
+#: admin/class-wbpwi-admin-settings-display.php:62
+msgid "Product Order Activity Content"
+msgstr "Садржај активности у редоследу наруџбина"
+
+#: admin/class-wbpwi-admin-settings-display.php:69
+msgid "Display purchase activity setting"
+msgstr "Прикажи подешавање активности за куповину"
+
+#: admin/class-wbpwi-admin-settings-display.php:74
+msgid "Example: made a purchase."
+msgstr "Пример: обавио/ла је куповину."
+
+#: admin/class-wbpwi-admin-settings-display.php:77
+msgid "Modify Product Order Activity Content"
+msgstr "Измени садржај активности у редоследу наруџбина"
+
+#: admin/class-wbpwi-admin-settings-display.php:83
+msgid "Product Review Activity Content"
+msgstr "Садржај активности рецензије производа"
+
+#: admin/class-wbpwi-admin-settings-display.php:90
+msgid "Display product reviews setting"
+msgstr "Прикажи подешавања за рецензију производа"
+
+#: admin/class-wbpwi-admin-settings-display.php:94
+msgid "Example: wrote a review."
+msgstr "Пример: написао/ла је рецензију."
+
+#: admin/class-wbpwi-admin-settings-display.php:98
+msgid "Modify Product Review Activity Content"
+msgstr "Измени садржај активности рецензије производа"
+
+#: admin/class-wbpwi-admin-settings-display.php:104
+msgid "WooCommerce Activity Setting"
+msgstr "Подешавање активности WooCommerce"
+
+#: admin/class-wbpwi-admin-settings-display.php:105
+msgid "Here you can enable or disable settings related to WooCommerce product purchase & review."
+msgstr "Овде можете да омогућите или онемогућите подешавања везана за куповину & рецензије WooCommerce производа."
+
+#: admin/class-wbpwi-settings-manager.php:56
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/class-wbpwi-settings-manager.php:59
+msgid "PeepSo WooCommerce Integration Config Tab"
+msgstr "Језичак за конфигурацију интеграције PeepSo WooCommerce"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:71
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:73
+msgid "Add Purchase details in activity"
+msgstr "Додај детаље о куповини у активност"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:79
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:83
+msgid "Add Review in activity"
+msgstr "Додај рецензије у активност"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:88
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:92
+msgid "Activity Settings"
+msgstr "Подешавања активности"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:34
+msgid "Cart"
+msgstr "Корпа за куповину"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:36
+#: core/class-wbpwi-woo-checkout-tab-manager.php:32
+msgid "Checkout"
+msgstr "Излаз за наплату"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:213
+#: core/class-wbpwi-woo-checkout-tab-manager.php:177
+msgid "Checkout is not available whilst your cart is empty."
+msgstr "Излаз за наплату није доступан док је Ваша корпа за куповину празна."
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:35
+#: global/class-wbpwi-global-functions.php:37
+msgid "Orders"
+msgstr "Наруџбине"
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:161
+#: core/class-wbpwi-woo-order-tracking-tab-manager.php:33
+msgid "Order Tracking"
+msgstr "Праћење наруџбина"
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:165
+msgid "Downloads"
+msgstr "Преузимања"
+
+#: global/class-wbpwi-global-functions.php:45
+msgid "wrote a review"
+msgstr "је написао/ла рецензију"
+
+#: global/class-wbpwi-global-functions.php:46
+msgid "made a purchase"
+msgstr "је обавио/ла куповину"
+
+#: peepso-woocommerce.php:274
+#, php-format
+msgid "The %1$s plugin requires PeepSo plugin to be installed and activated. "
+msgstr "Додатак %1$s захтева да PeepSo додатак буде инсталиран и активиран. "
+
+#: peepso-woocommerce.php:275
+#, php-format
+msgid "<a href=\"%1$s\" class=\"thickbox\">%2$s</a>"
+msgstr "<a href=\"%1$s\" class=\"thickbox\">%2$s</a>"
+
+#: peepso-woocommerce.php:275
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepso-woocommerce.php:289
+#, php-format
+msgid "The %1$s plugin requires the WooCommerce plugin. "
+msgstr "Додатку %1$s је неопходан WooCommerce додатак. "
+
+#: peepso-woocommerce.php:299
+msgid "Settings"
+msgstr "Подешавања"
+
+#: peepso-woocommerce.php:492
+msgid "Products slider"
+msgstr "Клизно листање производа"
+
+#: peepso-woocommerce.php:495
+msgid "Prev"
+msgstr "Претходно"
+
+#: peepso-woocommerce.php:496
+msgid "Next"
+msgstr "Следеће"
+
+#: peepso-woocommerce.php:562
+msgid " other product"
+msgid_plural " other products"
+msgstr[0] " други производ"
+msgstr[1] " друга производа"
+msgstr[2] " других производа"
+
+#: peepso-woocommerce.php:571
+msgid "and"
+msgstr "и"
+
+#: peepso-woocommerce.php:591
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s и %2$s"
+
+#: peepso-woocommerce.php:596
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: WooCommerce"
+msgstr "PeepSo монетизација: WooCommerce"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "<strong>Requires the WooCommerce plugin.</strong> WooCommerce bridge for PeepSo"
+msgstr "<strong>Захтева WooCommerce додатак.</strong> WooCommerce мост за PeepSo"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

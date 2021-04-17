@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:22+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsopolls.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: peepso-polls.pot\n"
+"Language: es_ES\n"
+
+#: classes/configsectionpolls.php:19
+msgid "Enabled: users can cast more than one vote in each poll"
+msgstr "Habilitado: los usuarios pueden votar más de una vez en cada encuesta"
+
+#: classes/configsectionpolls.php:19
+msgid "Disabled: users can only vote for one option in each poll"
+msgstr "Deshabilitado: los usuarios sólo podrán votar por una opción en cada encuesta"
+
+#: classes/configsectionpolls.php:22
+msgid "Multi select polls"
+msgstr "Encuestas de selección múltiple"
+
+#: classes/configsectionpolls.php:28
+msgid "Enabled: polls are available in group posts"
+msgstr "Habilitada: las encuestas están disponibles en las publicaciones de grupos"
+
+#: classes/configsectionpolls.php:28
+msgid "Disabled: polls are only available on community and profile streams"
+msgstr "Deshabilitado: las encuestas están solo disponibles en la comunidad y la actividad reciente"
+
+#: classes/configsectionpolls.php:31
+msgid "Polls in groups"
+msgstr "Encuestas en grupos"
+
+#: classes/configsectionpolls.php:37 classes/configsectionpolls.php:45
+msgid "Does not apply to poll author and administrators"
+msgstr "No se aplica a los administradores y autor de la encuesta"
+
+#: classes/configsectionpolls.php:37
+msgid "Enabled: users can change or delete their votes"
+msgstr "Habilitado: los usuarios pueden cambiar o eliminar sus votos"
+
+#: classes/configsectionpolls.php:37
+msgid "Disabled: votes are final"
+msgstr "Deshabilitado: los votos son definitivos"
+
+#: classes/configsectionpolls.php:40
+msgid "Allow vote changes"
+msgstr "Permitir cambios de voto"
+
+#: classes/configsectionpolls.php:45
+msgid "Enabled: users can see poll results before voting"
+msgstr "Habilitado: los usuarios pueden ver resultados de encuesta antes de votar"
+
+#: classes/configsectionpolls.php:45
+msgid "Disabled: results are hidden from users who haven't voted yet"
+msgstr "Deshabilitado: los resultados se ocultan a los usuarios que no han votado aún"
+
+#: classes/configsectionpolls.php:48
+msgid "Always show results"
+msgstr "Siempre mostrar los resultados"
+
+#: classes/configsectionpolls.php:57
+msgid "General"
+msgstr "General"
+
+#: classes/pollsajax.php:27 classes/pollsajax.php:95 classes/pollsajax.php:133
+msgid "Invalid user id"
+msgstr "Identificación de usuario inválida"
+
+#: classes/pollsajax.php:29 classes/pollsajax.php:97 classes/pollsajax.php:135
+msgid "Invalid poll id"
+msgstr "Identificación de encuesta inválida"
+
+#: classes/pollsajax.php:31
+msgid "No poll selected"
+msgstr "Ninguna encuesta seleccionada"
+
+#: classes/pollsajax.php:33
+msgid "Max 1 selected"
+msgstr "1 selección como máximo"
+
+#: classes/pollsajax.php:35
+msgid "Already voted"
+msgstr "Ya votó"
+
+#: peepsopolls.php:224
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "El plugin %s requiere que el plugin PeepSo esté instalado y activado."
+
+#: peepsopolls.php:226
+msgid "Get it now!"
+msgstr "¡Consíguelo ahora!"
+
+#: peepsopolls.php:254
+msgid "Polls"
+msgstr "Encuestas"
+
+#: peepsopolls.php:257
+msgid "PeepSo Polls"
+msgstr "Encuestas de PeepSo"
+
+#: peepsopolls.php:280 peepsopolls.php:328
+msgid "Poll"
+msgstr "Encuesta"
+
+#: peepsopolls.php:343
+msgid "Say something about this poll..."
+msgstr "Opina acerca de esta encuesta..."
+
+#: peepsopolls.php:344
+#, php-format
+msgid "Option %d"
+msgstr "Opción %d"
+
+#: peepsopolls.php:359
+msgid " asked a question"
+msgstr " hizo una pregunta"
+
+#: peepsopolls.php:508 templates/polls/content-media.php:54
+msgid "Change Vote"
+msgstr "Cambiar Voto"
+
+#: templates/polls/content-media.php:16
+msgid "(no votes yet)"
+msgstr "(sin votos)"
+
+#: templates/polls/content-media.php:27
+msgid "of"
+msgstr "de"
+
+#: templates/polls/content-media.php:56
+msgid "Submit"
+msgstr "Enviar"
+
+#: templates/polls/content-media.php:64
+msgid "Unvote"
+msgstr "Retirar voto"
+
+#: templates/polls/content-media.php:72
+msgid "Login to cast your vote and to see results."
+msgstr "Inicie sesión para emitir su voto y ver los resultados."
+
+#: templates/polls/postbox-polls.php:7 templates/polls/postbox-polls.php:12
+msgid "Move"
+msgstr "Mover"
+
+#: templates/polls/postbox-polls.php:8
+msgid "Option 1"
+msgstr "Opción 1"
+
+#: templates/polls/postbox-polls.php:9 templates/polls/postbox-polls.php:14
+msgid "Delete"
+msgstr "Borrar"
+
+#: templates/polls/postbox-polls.php:13
+msgid "Option 2"
+msgstr "Opción 2"
+
+#: templates/polls/postbox-polls.php:19
+msgid "Add new option"
+msgstr "Agregar nueva opción"
+
+#: templates/polls/postbox-polls.php:24
+msgid "Allow multiple options selection"
+msgstr "Permitir opciones de selección múltiple"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Polls"
+msgstr "PeepSo Core: Encuestas"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Post a question and let users vote"
+msgstr "Publicar una pregunta y dejar que los usuarios voten"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2018-04-12 10:17+0700\n"
+"PO-Revision-Date: 2018-04-18 05:31-0400\n"
+"Last-Translator: peepso <company@peep.so>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepso-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: peepsowc.pot\n"
+"Language: fa_IR\n"
+
+#: admin/class-wbpwi-admin-settings-display.php:28
+msgid "WooCommerce Tabs Display"
+msgstr "نمایش تب های ووکامرس"
+
+#: admin/class-wbpwi-admin-settings-display.php:45
+msgid "PeepSo WooCommerce Tabs Setting"
+msgstr "تنظیمات تب های ووکامرس PeepSo"
+
+#: admin/class-wbpwi-admin-settings-display.php:46
+msgid "Here you can enable or disable woocommerce tabs in PeepSo member single page."
+msgstr "در اینجا شما می توانید تب های ووکامرس را در قسمت اعضای PeepSo در صفحات تکی فعال یا غیر فعال کنید."
+
+#: admin/class-wbpwi-admin-settings-display.php:62
+msgid "Product Order Activity Content"
+msgstr "محتوای فعالیت سفارش محصول"
+
+#: admin/class-wbpwi-admin-settings-display.php:69
+msgid "Display purchase activity setting"
+msgstr "نمایش تنظیمات فعالیت خرید"
+
+#: admin/class-wbpwi-admin-settings-display.php:74
+msgid "Example: made a purchase."
+msgstr "نمونه: خرید انجام شده."
+
+#: admin/class-wbpwi-admin-settings-display.php:77
+msgid "Modify Product Order Activity Content"
+msgstr "تغییر محتوای فعالیت سفارش محصول"
+
+#: admin/class-wbpwi-admin-settings-display.php:83
+msgid "Product Review Activity Content"
+msgstr "محتوای فعالیت نقد و بررسی محصول"
+
+#: admin/class-wbpwi-admin-settings-display.php:90
+msgid "Display product reviews setting"
+msgstr "نمایش تنظیمات نقد و بررسی محصول"
+
+#: admin/class-wbpwi-admin-settings-display.php:94
+msgid "Example: wrote a review."
+msgstr "نمونه: یک ارزیابی نوشت."
+
+#: admin/class-wbpwi-admin-settings-display.php:98
+msgid "Modify Product Review Activity Content"
+msgstr "تغییر محتوای فعالیت نقد و بررسی محصول"
+
+#: admin/class-wbpwi-admin-settings-display.php:104
+msgid "WooCommerce Activity Setting"
+msgstr "تنظیمات فعالیت ووکامرس"
+
+#: admin/class-wbpwi-admin-settings-display.php:105
+msgid "Here you can enable or disable settings related to WooCommerce product purchase & review."
+msgstr "در اینجا شما می توانید تنظیمات مرتبط با نقد و بررسی و خرید محصول ووکامرس را فعال یا غیر فعال کنید."
+
+#: admin/class-wbpwi-settings-manager.php:58 peepso-woocommerce.php:245
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: admin/class-wbpwi-settings-manager.php:61
+msgid "PeepSo WooCommerce Integration Config Tab"
+msgstr "تب تنظیمات یکپارچه سازی ووکامرس و PeepSo "
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:71
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:73
+msgid "Add Purchase details in activity"
+msgstr "افزودن جزئیات خرید در فعالیت"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:79
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:83
+msgid "Add Review in activity"
+msgstr "افزودن نقد و بررسی در فعالیت"
+
+#: core/class-wbpwi-woo-activity-settings-manager.php:88
+#: core/profile-settings/class-wbpwi-woo-activity-settings-manager.php:92
+msgid "Activity Settings"
+msgstr "تنظیمات فعالیت ها"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:34
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:36
+#: core/class-wbpwi-woo-checkout-tab-manager.php:32
+msgid "Checkout"
+msgstr "تسویه حساب"
+
+#: core/class-wbpwi-woo-cart-tab-manager.php:213
+#: core/class-wbpwi-woo-checkout-tab-manager.php:177
+msgid "Checkout is not available whilst your cart is empty."
+msgstr "صفحه تسویه حساب در دسترس نیست: سبد خرید شما خالی است."
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:35
+msgid "Orders"
+msgstr "سفارشات"
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:159
+#: core/class-wbpwi-woo-order-tracking-tab-manager.php:33
+msgid "Order Tracking"
+msgstr "رهگیری سفارش"
+
+#: core/class-wbpwi-woo-myacc-tabs-manager.php:163
+msgid "Downloads"
+msgstr "دانلودها"
+
+#: peepso-woocommerce.php:243
+msgid "PeepSo WooCommerce Integration"
+msgstr "یکپارچه سازی ووکامرس با PeepSo"
+
+#. Author of the plugin/theme
+#: peepso-woocommerce.php:244
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#: peepso-woocommerce.php:247
+#, php-format
+msgid "%1$s is ineffective now and it requires %2$s and %3$s both to be installed and active."
+msgstr "%1$s در حال حاضر بی اثر است و نیاز به نصب و فعال سازی %2$s و %3$s دارد."
+
+#: peepso-woocommerce.php:260
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: peepso-woocommerce.php:453
+msgid "Products slider"
+msgstr "اسلایدر محصولات"
+
+#: peepso-woocommerce.php:456
+msgid "Prev"
+msgstr "قبلی"
+
+#: peepso-woocommerce.php:457
+msgid "Next"
+msgstr "بعدی"
+
+#: peepso-woocommerce.php:523
+msgid " other product"
+msgid_plural " other products"
+msgstr[0] " محصول دیگر"
+msgstr[1] " محصولات دیگر"
+
+#: peepso-woocommerce.php:532
+msgid "and"
+msgstr "و"
+
+#: peepso-woocommerce.php:552
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s و %2$s"
+
+#: peepso-woocommerce.php:557
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: WooCommerce"
+msgstr "یکپارچه سازی پیپ سو: ووکامرس"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "WooCommerce bridge for PeepSo"
+msgstr "پل ووکامرس برای پیپ سو"
+

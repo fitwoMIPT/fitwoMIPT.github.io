@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-04-03 08:22+0700\n"
+"PO-Revision-Date: 2020-04-03 01:46\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsopolls.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: peepso-polls.pot\n"
+"Language: ja_JP\n"
+
+#: classes/configsectionpolls.php:19
+msgid "Enabled: users can cast more than one vote in each poll"
+msgstr "有効: ユーザーは各調査で複数票を投じることができます。"
+
+#: classes/configsectionpolls.php:19
+msgid "Disabled: users can only vote for one option in each poll"
+msgstr "[無効]: ユーザーは各調査で一度だけ投票できます。"
+
+#: classes/configsectionpolls.php:22
+msgid "Multi select polls"
+msgstr "複数選択"
+
+#: classes/configsectionpolls.php:28
+msgid "Enabled: polls are available in group posts"
+msgstr "有効: 調査は、グループのなかで投票可能"
+
+#: classes/configsectionpolls.php:28
+msgid "Disabled: polls are only available on community and profile streams"
+msgstr "投票は、コミュニティのなかでプロフィールストリームのなかでのみ利用可能。"
+
+#: classes/configsectionpolls.php:31
+msgid "Polls in groups"
+msgstr "グループ内の投票。"
+
+#: classes/configsectionpolls.php:37 classes/configsectionpolls.php:45
+msgid "Does not apply to poll author and administrators"
+msgstr "調査の作成者、管理者には適用されません。"
+
+#: classes/configsectionpolls.php:37
+msgid "Enabled: users can change or delete their votes"
+msgstr "有効: ユーザーは投票を変更または削除できる。"
+
+#: classes/configsectionpolls.php:37
+msgid "Disabled: votes are final"
+msgstr "無効：投票が最終です。"
+
+#: classes/configsectionpolls.php:40
+msgid "Allow vote changes"
+msgstr "投票の変更を許可します。"
+
+#: classes/configsectionpolls.php:45
+msgid "Enabled: users can see poll results before voting"
+msgstr "有効: ユーザーは投票前に投票結果を見ることができる。"
+
+#: classes/configsectionpolls.php:45
+msgid "Disabled: results are hidden from users who haven't voted yet"
+msgstr "[無効]: 結果はまだ投票していないユーザーに表示されません。"
+
+#: classes/configsectionpolls.php:48
+msgid "Always show results"
+msgstr "常に結果を表示します。"
+
+#: classes/configsectionpolls.php:57
+msgid "General"
+msgstr "一般"
+
+#: classes/pollsajax.php:27 classes/pollsajax.php:95 classes/pollsajax.php:133
+msgid "Invalid user id"
+msgstr "無効なユーザーID"
+
+#: classes/pollsajax.php:29 classes/pollsajax.php:97 classes/pollsajax.php:135
+msgid "Invalid poll id"
+msgstr "無効な投票ID"
+
+#: classes/pollsajax.php:31
+msgid "No poll selected"
+msgstr "投票が選択されていません。"
+
+#: classes/pollsajax.php:33
+msgid "Max 1 selected"
+msgstr "最大１つを選択"
+
+#: classes/pollsajax.php:35
+msgid "Already voted"
+msgstr "すでに投票済み"
+
+#: peepsopolls.php:224
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s プラグインには、PeepSo プラグインをインストールしてアクティブ化する必要があります。"
+
+#: peepsopolls.php:226
+msgid "Get it now!"
+msgstr "今すぐ入手！"
+
+#: peepsopolls.php:254
+msgid "Polls"
+msgstr "投票"
+
+#: peepsopolls.php:257
+msgid "PeepSo Polls"
+msgstr "投稿"
+
+#: peepsopolls.php:280 peepsopolls.php:328
+msgid "Poll"
+msgstr "投票"
+
+#: peepsopolls.php:343
+msgid "Say something about this poll..."
+msgstr ""
+
+#: peepsopolls.php:344
+#, php-format
+msgid "Option %d"
+msgstr "選択%d"
+
+#: peepsopolls.php:359
+msgid " asked a question"
+msgstr "聞かれた質問"
+
+#: peepsopolls.php:508 templates/polls/content-media.php:54
+msgid "Change Vote"
+msgstr "投票を変更"
+
+#: templates/polls/content-media.php:16
+msgid "(no votes yet)"
+msgstr "(未投票)"
+
+#: templates/polls/content-media.php:27
+msgid "of"
+msgstr "の"
+
+#: templates/polls/content-media.php:56
+msgid "Submit"
+msgstr "送信"
+
+#: templates/polls/content-media.php:64
+msgid "Unvote"
+msgstr "未投票"
+
+#: templates/polls/content-media.php:72
+msgid "Login to cast your vote and to see results."
+msgstr "投票を呼びかけ、結果をみるためにログインする。"
+
+#: templates/polls/postbox-polls.php:7 templates/polls/postbox-polls.php:12
+msgid "Move"
+msgstr ""
+
+#: templates/polls/postbox-polls.php:8
+msgid "Option 1"
+msgstr "選択1"
+
+#: templates/polls/postbox-polls.php:9 templates/polls/postbox-polls.php:14
+msgid "Delete"
+msgstr ""
+
+#: templates/polls/postbox-polls.php:13
+msgid "Option 2"
+msgstr "選択2\n"
+
+#: templates/polls/postbox-polls.php:19
+msgid "Add new option"
+msgstr "新しい選択肢を追加する"
+
+#: templates/polls/postbox-polls.php:24
+msgid "Allow multiple options selection"
+msgstr "複数選択セクションを許可します。"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Polls"
+msgstr "投票"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Post a question and let users vote"
+msgstr "質問を投稿し、ユーザーに投票させる。"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""
+
