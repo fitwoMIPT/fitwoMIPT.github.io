@@ -1,1 +1,0 @@
-<?php echo __('This content is not available at this time.', 'peepso-core');

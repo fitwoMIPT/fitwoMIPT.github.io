@@ -1,2 +1,0 @@
-import './tagging';
-import './peepsotags';

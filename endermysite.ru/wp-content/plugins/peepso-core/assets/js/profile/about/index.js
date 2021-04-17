@@ -1,2 +1,0 @@
-import './notifications';
-import './account';
