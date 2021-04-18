@@ -1,2 +1,2 @@
 # fitwoMIPT.github.io
-Site for hackathon
+Site for hackathon MPIT "Моя профессия - IT".
